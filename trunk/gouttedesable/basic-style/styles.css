@@ -1,0 +1,82 @@
+/****************************************/
+/* Définitions communes à toute les page */
+/****************************************/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 75%;
+	font-family: Verdana, Arial, Helvetica, Serif;
+	background: #F8BF87;
+	}
+ul{
+  margin: 0;
+  padding: 0;
+  }
+li{
+	list-style-type: none;
+	}
+.globalPage{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.mainFrame{
+	position: relative;
+	top: 15px;
+	width: 650px;
+	height: 560px;
+	padding: 0;
+	margin: 0;
+	background: #FFFFFF;
+  color: black;
+	text-align: left;
+	}
+
+.pageTitle{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	width: 376px;
+	height: 113px;
+	padding: 0;
+	margin: 0;
+	background: url("img/goutteDeSable.png") top left no-repeat;
+  color: black;
+	}
+.pageMenu{
+	position: absolute;
+	top: 170px;
+	left: -20px;
+	width: 50px;
+	height: 70px;
+	padding: 0;
+	margin: 0;
+	background: url("img/goutteDeSable.png") top left no-repeat;
+  color: black;	
+}
+.footer{
+	position: absolute;
+	top: 560px;
+	width: 650px;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	background: #CCCCCC;
+  color: black;
+}
+.textOutOfScreen{
+	text-indent: -5000px;
+	line-height: 0px;
+}
+.pageContent{
+}
+
+/******************************/
+/* Style de la page "Accueil" */
+/******************************/
+
+
+
