@@ -49,21 +49,21 @@ li{
 .pageMenu{
 	position: absolute;
 	top: 113px;
-	left: -20px;
-	width: 180px;
+	left: -60px;
+	width: 159px;
 	height: 300px;
 	padding: 0px;
 	margin: 0px;
-	background: url("img/goutteDeSable.png") top left repeat;
+	background: url("img/menu.png") top left repeat;
   color: black;
 	border: 0px solid #000000;
   }
 .pageContent{
 	position: absolute;
-	top: 113px;
+	top: 133px;
 	left: 160px;
-	width: 490px;
-	height: 300px;
+	width: 550px;
+	height: 340px;
 	padding: 0px;
 	margin: 0px;
   color: black;
