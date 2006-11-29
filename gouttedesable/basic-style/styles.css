@@ -34,6 +34,15 @@ li{
 	text-align: left;
 /*	border: 1px solid #000000; */
 	}
+.goutte{
+	position: absolute;
+	top: 5px;
+	left: -13px;
+	width: 70px;
+	height: 107px;
+	float: left;
+	background: url("img/goutte.gif") top left repeat;
+}
 .pageTitle{
 	position: relative;
 	top: 5px;
