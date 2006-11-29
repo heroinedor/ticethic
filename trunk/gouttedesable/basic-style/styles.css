@@ -2,77 +2,87 @@
 /* Définitions communes à toute les page */
 /****************************************/
 body{
-	margin: 0;
-	padding: 0;
-	font-size: 75%;
+	margin: 0px 22px 0px 22px;
+	padding: 0px;
+	font-size: 12px;
 	font-family: Verdana, Arial, Helvetica, Serif;
 	background: #F8BF87;
 	}
 ul{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   }
 li{
 	list-style-type: none;
 	}
-.globalPage{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-}
+.topSpacer{
+	position: relative;
+	width: 650px;
+	height: 25px;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #000000;
+	}
 .mainFrame{
 	position: relative;
-	top: 15px;
 	width: 650px;
-	height: 560px;
-	padding: 0;
-	margin: 0;
+	height: 500px;
+	padding: 0px;
+	margin: 0px;
 	background: #FFFFFF;
   color: black;
 	text-align: left;
+/*	border: 1px solid #000000; */
 	}
-
 .pageTitle{
-	position: absolute;
+	position: relative;
 	top: 0px;
-	left: 200px;
+	left: 220px;
 	width: 376px;
 	height: 113px;
-	padding: 0;
-	margin: 0;
-	background: url("img/goutteDeSable.png") top left no-repeat;
+	padding: 0px;
+	margin: 0px;
+	background: url("img/goutteDeSable.png") top left repeat;
   color: black;
+	border: 0px solid #000000;
 	}
 .pageMenu{
 	position: absolute;
-	top: 170px;
+	top: 113px;
 	left: -20px;
-	width: 50px;
-	height: 70px;
-	padding: 0;
-	margin: 0;
-	background: url("img/goutteDeSable.png") top left no-repeat;
-  color: black;	
-}
-.footer{
+	width: 180px;
+	height: 300px;
+	padding: 0px;
+	margin: 0px;
+	background: url("img/goutteDeSable.png") top left repeat;
+  color: black;
+	border: 0px solid #000000;
+  }
+.pageContent{
 	position: absolute;
-	top: 560px;
+	top: 113px;
+	left: 160px;
+	width: 490px;
+	height: 300px;
+	padding: 0px;
+	margin: 0px;
+  color: black;
+	border: 1px solid #000000;
+	}
+.footer{
+	position: relative;
 	width: 650px;
 	height: 25px;
-	padding: 0;
-	margin: 0;
-	background: #CCCCCC;
+	padding: 0px;
+	margin: 0px;
   color: black;
-}
+  text-align: left;
+	border: 1px solid #000000;
+  }
 .textOutOfScreen{
 	text-indent: -5000px;
 	line-height: 0px;
-}
-.pageContent{
-}
+  }
 
 /******************************/
 /* Style de la page "Accueil" */
