@@ -55,7 +55,7 @@ li{
 	padding: 0px;
 	margin: 0px;
 	background: url("img/menu.gif") top left no-repeat;
-  color: black;
+    color: black;
 	border: 0px solid #000000;
   }
 .pageContent{
@@ -66,7 +66,7 @@ li{
 	height: 370px;
 	padding: 0px;
 	margin: 0px;
-  color: black;
+    color: black;
 	border: 1px solid #000000;
 	}
 .footer{
@@ -75,8 +75,8 @@ li{
 	height: 25px;
 	padding: 0px;
 	margin: 0px;
-  color: black;
-  text-align: left;
+    color: black;
+    text-align: left;
 	border: 1px solid #000000;
   }
 .textOutOfScreen{
