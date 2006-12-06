@@ -15,14 +15,15 @@ ul{
 li{
 	list-style-type: none;
 	}
-.topSpacer{
-	position: relative;
-	width: 650px;
-	height: 0px;
-	padding: 0px;
-	margin: 0px;
-	border: 0px solid #000000;
-	}
+h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+a, a:link, a:visited{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
 .mainFrame{
 	position: relative;
 	width: 650px;
@@ -79,10 +80,6 @@ li{
 	border: 0px solid #000000;
 	text-align: justify;
 	}
-.pageContent h1{
-	font-size: 20px;
-	font-weight: bold;
-}
 .pageContent ul{
   margin: 0px 0px 0px 10px;
   padding: 0px 0px 0px 10px;
@@ -90,15 +87,6 @@ li{
 .pageContent li{
 	list-style-type: disc;
 }
-.pageContent h1{
-	font-size: 20px;
-	font-weight: bold;
-}
-.pageContent h1{
-	font-size: 20px;
-	font-weight: bold;
-}
-
 .footer{
 	position: relative;
 	width: 650px;
@@ -114,7 +102,7 @@ li{
 	line-height: 0px;
   }
 
-a.menuAccueil{
+a.menuAccueil, a.menuAcueil:link, a.menuAccueil:visited{
 	position: absolute;
 	top: 10px;
 	left: 75px;
@@ -122,15 +110,15 @@ a.menuAccueil{
 	height: 30px;
 	padding: 0px;
 	margin: 0px;
-	background: url("img/menuAccueilOff.png") top left no-repeat;
+	background: url("img/goutte.gif") top left no-repeat;
 	border: 0px solid #000000;
 	text-decoration: none;
 }
 a.menuAccueil:hover{
-	background: url("img/goutte.gif") top left no-repeat;
+	background: url("img/menuAccueilOff.png") top left no-repeat;
 	text-decoration: none;
 }
-a.menuBibliotheque{
+a.menuBibliotheque, a.menuBibliotheque:link, a.menuBibliotheque:visited{
 	position: absolute;
 	top: 75px;
 	left: 60px;
@@ -138,15 +126,15 @@ a.menuBibliotheque{
 	height: 25px;
 	padding: 0px;
 	margin: 0px;
-	background: url("img/menuBibliothequeOff.png") top left no-repeat;
+	background: url("img/goutte.gif") top left no-repeat;
 	border: 0px solid #000000;
 	text-decoration: none;
 }
 a.menuBibliotheque:hover{
-	background: url("img/goutte.gif") top left no-repeat;
+	background: url("img/menuBibliothequeOff.png") top left no-repeat;
 	text-decoration: none;
 }
-a.menuContact{
+a.menuContact, a.menuContact:link, a.menuContact:visited{
 	position: absolute;
 	top: 130px;
 	left: 20px;
@@ -154,19 +142,91 @@ a.menuContact{
 	height: 30px;
 	padding: 0px;
 	margin: 0px;
-	background: url("img/menuContactOff.png") top left no-repeat;
+	background: url("img/goutte.gif") top left no-repeat;
 	border: 0px solid #000000;
 	text-decoration: none;
 }
 a.menuContact:hover{
-	background: url("img/goutte.gif") top left no-repeat;
+	background: url("img/menuContactOff.png") top left no-repeat;
 	text-decoration: none;
 }
-/******************************/
-/* Style de la page "Accueil" */
-/******************************/
+/***********************************/
+/* Style de la page "Accueil"      */
+/***********************************/
 
 
+
+
+
+/***********************************/
+/* Style de la page "Bibliotheque" */
+/***********************************/
+a.livresGuides, a.livresGuides:link, a.livresGuides:visited{
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	width: 75px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	background: url("img/goutte.gif") top left no-repeat;
+	border: 0px solid #000000;
+	text-decoration: none;
+}
+a.livresGuides:hover{
+	background: url("img/menuContactOff.png") top left no-repeat;	
+}
+a.livresAlbums{
+	position: absolute;
+	top: 140px;
+	left: 370px;
+	width: 75px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	background: url("img/goutte.gif") top left no-repeat;
+	border: 0px solid #000000;
+	text-decoration: none;
+}
+a.livresAlbums:hover{
+	background: url("img/menuContactOff.png") top left no-repeat;	
+}
+a.livresTechniques{
+	position: absolute;
+	top: 270px;
+	left: 180px;
+	width: 75px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	background: url("img/goutte.gif") top left no-repeat;
+	border: 0px solid #000000;
+	text-decoration: none;
+}
+a.livresTechniques:hover{
+	background: url("img/menuContactOff.png") top left no-repeat;
+}
+
+.cadreLivresGuides{
+	position: absolute;
+	top: 110px;
+	left: 175px;
+	width: 150px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	background: url("img/goutte.gif") top left repeat;
+	border: 0px solid #000000;
+	text-decoration: none;
+/*	display: block; */
+	visibility: hidden;
+}
+
+
+
+/***********************************/
+/* Style de la page "Contact"      */
+/***********************************/
 .contactLegend{
 	font-size: 10px;
 	color: black;
