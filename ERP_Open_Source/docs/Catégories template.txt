@@ -1,4 +1,5 @@
-catégories fonctionnelles:
+1- Catégories fonctionnelles:
+
 - Finances :
 	- comptabilité
 		- grand livre (de compte)
@@ -6,7 +7,7 @@ catégories fonctionnelles:
 		- clients (facturation)
 		- immobilisation
 		- consolidation
-		- ledger
+		- ledger (??)
 	- Contrôle de gestion:
 	- Gestion des investissements
 	- Trésorerie:
@@ -15,16 +16,45 @@ catégories fonctionnelles:
 		- aléa des risque du management
 		- gestion des transactions monétaires
 		- contrôle de gestion d'entreprise (??)
-	
+	- Gestion des biens immobiliers
+
 - Ressources Humaines :
-	- Paie
-	- 
+	- Gestion du personnel : 
+		- avantages sociaux
+		- gestion de la rémunération (Paie)
+		- recrutement
+		- gestion du temps
+		- gestion des frais de déplacement
+		- calcul de paie
+	- Planification et gestion du personnel : 
+		- organisation et planification
+		- gestion de la formation
+		- gestion des évènements
+	- HRIS (Human Resources Information System) : 
+		- Self service des employés
+	
 - Logistique :
-	- stock
-	- administration des ventes
-	- Chaînes logistique (Supply Chain)
-	- Gestion Relation fournisseurs (SRM)
+	- Administration des ventes (Ex : marketing, détermination des prix)
+	- Production (GPAO)
+	- Gestion des articles (stock)
+	- Management de la qualité
+	- Maintenance (GMAO)
+	- Controlling Logistic (Forecast??)
+	- Management de projet
+	- fonction centrale : 
+		- Système de gestion de documents (GED)
+	- Gestion de configuration matérielle
+		
 - Relations clients :
 	- Gestion Relation Client (CRM)
-	- Facturation
-- 
+	- Suivi de Commande (SAV?)
+		
+- Gestion Relation fournisseurs (SRM)
+	- Chaînes fournisseur (Supply Chain)
+	
+	
+2- Catégories transverse:
+	- Qualité
+	- Workflow / Groupware ?
+	- décisionnel
+	- knowledge management
