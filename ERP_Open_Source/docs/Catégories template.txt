@@ -1,0 +1,30 @@
+catégories fonctionnelles:
+- Finances :
+	- comptabilité
+		- grand livre (de compte)
+		- fournisseurs (??)
+		- clients (facturation)
+		- immobilisation
+		- consolidation
+		- ledger
+	- Contrôle de gestion:
+	- Gestion des investissements
+	- Trésorerie:
+		- flux de trésorerie
+		- budget de trésorerie
+		- aléa des risque du management
+		- gestion des transactions monétaires
+		- contrôle de gestion d'entreprise (??)
+	
+- Ressources Humaines :
+	- Paie
+	- 
+- Logistique :
+	- stock
+	- administration des ventes
+	- Chaînes logistique (Supply Chain)
+	- Gestion Relation fournisseurs (SRM)
+- Relations clients :
+	- Gestion Relation Client (CRM)
+	- Facturation
+- 
