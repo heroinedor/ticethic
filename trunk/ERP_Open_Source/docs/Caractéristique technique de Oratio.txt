@@ -1,0 +1,23 @@
+ Oratio ® : un ERP Web & Open Source
+Oratio® est issu au départ du logiciel de comptabilité Sql-Ledger placé sous licence GPL. En 2001, une entreprise italienne de Turin, Proxima Centauri, a commencé le développement d'un "fork" de ce logiciel. Après 3 ans est donc né Oratio®.
+Proxima Centauri 	Sql Ledger
+fonctionnalités
+
+    * Panneau d'administration :
+      Veillez à la sécurité interne dans votre entreprise ! Oratio® offre la possibilité de configurer pour chaque utilisateur leurs droits de façon très précise.
+    * Interface commerciale :
+      Gagnez du temps ! Elaborez des devis en ligne directement chez le client grâce à la technologie web de Oratio® et profitez des possibilités e-business.
+    * Interface production et logistique :
+      Ayez des clients satisfaits ! Avec Oratio®, élaborez des délais précis, planifiez votre production grâce au moteur MRP2 (planification des ressources de l'entreprise).
+    * Gestion comptable et analyse des coûts :
+      Profitez au mieux de votre expert-comptable ! Oratio® vous offre la possibilité de saisir rapidement et intuitivement vos documents comptables grâce à ses puissants automatismes, et d'exploiter au mieux les compétences de votre expert.
+
+Aspects Techniques
+
+    * Interface Web
+      Développé en langage Perl, Oratio®, est accessible via un navigateur internet. Ceci lui confère une grande flexibilité d'utilisation. De plus la puissance du langage Perl permet d'obtenir via internet toute la richesse nécessaire à un ERP.
+    * Interface base de donnée robuste :Powered by Postgres
+      Développé pour le système de gestion de base de données Postgres et s'interfaçant aussi avec Oracle®, Oratio® repose sur de solides bases de données.
+    * Haut niveau de personnalisation :
+      Adaptez vos outils à votre entreprise ! Son caractère Open Source et son architecture offrant une grande flexibilité à Oratio®, s'intègre parfaitement dans votre environnement.
+

@@ -1,6 +1,6 @@
 1- Catégories fonctionnelles:
 
-- Finances :
+- Finances  (comptabilité générale, analytique et budgétaire ??)
 	- comptabilité
 		- grand livre (de compte)
 		- fournisseurs (??)
@@ -8,6 +8,7 @@
 		- immobilisation
 		- consolidation
 		- ledger (??)
+		- plusieurs plans comptable ?
 	- Contrôle de gestion:
 	- Gestion des investissements
 	- Trésorerie:
@@ -32,10 +33,9 @@
 		- gestion des évènements
 	- HRIS (Human Resources Information System) : 
 		- Self service des employés
+	- Gestion de la prestation de service et des intérimaires?
 	
 - Logistique :
-	- Administration des ventes (Ex : marketing, détermination des prix)
-	- Production (GPAO)
 	- Gestion des articles (stock)
 	- Management de la qualité
 	- Maintenance (GMAO)
@@ -44,10 +44,24 @@
 	- fonction centrale : 
 		- Système de gestion de documents (GED)
 	- Gestion de configuration matérielle
+	
+- Gestion de la production:
+	- GPAO
+	- devis
+	- planification
+	- ordres de fabrication 
+	- nomenclatures
 		
-- Relations clients :
+- Administration des ventes
+	- Tarification
+	- Facturation (?)
 	- Gestion Relation Client (CRM)
+	- portail de vente (gestion des catalogues, gestion des tarifs et suivi des commandes) (Compiere)
 	- Suivi de Commande (SAV?)
+	- Interface commerciale :
+      (cf Oratio) Elaboration de devis en ligne directement chez le client
+    - Marketing 
+ 
 		
 - Gestion Relation fournisseurs (SRM)
 	- Chaînes fournisseur (Supply Chain)
@@ -58,3 +72,10 @@
 	- Workflow / Groupware ?
 	- décisionnel
 	- knowledge management
+	- e-business ?
+	
+3- Caractéristiques techniques
+	- module d'administration:
+	- type d'architecture : client/serveur, Web, autre
+	- base de données : MySQL, Oracle, PostgreSQL, etc.
+	- Mulitlangue
