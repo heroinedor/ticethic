@@ -1,0 +1,42 @@
+Introduction
+
+Initiative GNU est la contribution de la société de service UNGI au monde du logiciel libre.
+
+Vous trouverez un certain nombre de projets :
+
+    * Le facturier : qui est téléchargeable sur ce site
+    * Linux MAO : site sur la musique assistée par ordinateur sous Linux dond UNGI est l'initiateur et l'hébergeur
+    * Tikiwiki : outil de CMS collaboratif sur lequel UNGI participe en tant de développeur. Ce site est fait en Tikiwiki.
+    * sans oublier l'ancêtre, Un Nouveau Guide Internet qui fut la ressource des internautes des années 1995 à 1998. Cette ressource n'était mas libre de droit, mais a été consultée en libre accès par plus de 3 millions de visiteurs. 
+
+
+
+UNGI Facturier
+
+Les fonctionnalités
+
+Ce logiciel est utilisé au sein de la société UNGI non seulement pour établir les factures mais ce n'est pas seulement sa fonction.
+
+UNGI Facturier est capable de :
+
+    * d'éditer des factures au format PDF
+    * de fabriquer ses factures avec une base clients ou prospects
+    * de suivre les encaissements
+    * d'éditer et de suivre les relances
+    * de répertorier la base des clients avec les différents correspondants et leur numéros de téléphone
+    * de gérer les propositions commerciales en leur attribuant un taux de succès et de suivre l'outlook
+    * de basculer les propositions en commande et de suivre les commandes
+    * de facturer les affaires commandées ou d'établir des factures libres
+    * de gérer les utilisateurs et leur niveau d'interaction avec le facturier
+    * de suivre l'ensemble des dépenses de votre entreprise
+    * de connaitre au jour le jour l'état de votre balance 
+
+
+
+Caractéristiques techniques
+
+    * Accessible en mode Web sur Intranet Internet
+    * ecrit en Perl
+    * fonctionne avec une base de données MYSQL ou autre
+    * compatible avec tous les serveurs HTTP
+    * logiciel GPL 
