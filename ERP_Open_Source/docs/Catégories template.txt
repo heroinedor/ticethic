@@ -17,6 +17,7 @@
 		- aléa des risque du management
 		- gestion des transactions monétaires
 		- contrôle de gestion d'entreprise (??)
+		- suivi des encaissement, des décaissements et de la balance
 	- Gestion des biens immobiliers
 
 - Ressources Humaines :
@@ -54,12 +55,21 @@
 		
 - Administration des ventes
 	- Tarification
-	- Facturation (?)
+	- Facturation :
+		- édition
+		- relance
+		- facturation libre vs commande
 	- Gestion Relation Client (CRM)
+		- gestion des clients (coordonnées, etc.)
+		- gestion des prospects
 	- portail de vente (gestion des catalogues, gestion des tarifs et suivi des commandes) (Compiere)
-	- Suivi de Commande (SAV?)
 	- Interface commerciale :
-      (cf Oratio) Elaboration de devis en ligne directement chez le client
+      	- (cf Oratio) Elaboration de devis en ligne directement chez le client
+      	- gestion des propositions commerciales + taux des succès (Le Facturier)
+	- Suivi de Commande :
+		- identification de la source (propal commercial ou autre)
+		- historique
+	- SAV
     - Marketing 
  
 		
@@ -76,6 +86,10 @@
 	
 3- Caractéristiques techniques
 	- module d'administration:
+		- gestion des profils d'utilisateurs
 	- type d'architecture : client/serveur, Web, autre
+	- langage de programmation (java, Perl, php, etc.)
+	- architecture serveur : HTTP, n-tiers, appli, prrrrrrtt!
 	- base de données : MySQL, Oracle, PostgreSQL, etc.
 	- Mulitlangue
+	- licence
