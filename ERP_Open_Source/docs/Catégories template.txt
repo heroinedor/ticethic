@@ -1,95 +1,88 @@
-1- Catégories fonctionnelles:
+1- Categories fonctionnelles:
 
-- Finances  (comptabilité générale, analytique et budgétaire ??)
-	- comptabilité
-		- grand livre (de compte)
-		- fournisseurs (??)
-		- clients (facturation)
-		- immobilisation
-		- consolidation
-		- ledger (??)
-		- plusieurs plans comptable ?
-	- Contrôle de gestion:
-	- Gestion des investissements
-	- Trésorerie:
-		- flux de trésorerie
-		- budget de trésorerie
-		- aléa des risque du management
-		- gestion des transactions monétaires
-		- contrôle de gestion d'entreprise (??)
-		- suivi des encaissement, des décaissements et de la balance
-	- Gestion des biens immobiliers
+- Finances  (comptabilite generale, analytique et budgetaire ??)
+       - comptabilite (privé et publique)
+               - grand livre (de compte)
+               - fournisseurs (??)
+               - clients (facturation)
+               - immobilisation
+               - consolidation
+               - ledger (??)
+               - plusieurs plans comptable ?
+       - Controle de gestion:
+       - comptabilité analytique
+       - Gestion des investissements
+       - Tresorerie:
+               - flux de tresorerie
+               - budget de tresorerie
+               - alea des risque du management
+               - gestion des transactions monetaires
+               - controle de gestion d'entreprise (??)
+       - Gestion des biens immobiliers
 
 - Ressources Humaines :
-	- Gestion du personnel : 
-		- avantages sociaux
-		- gestion de la rémunération (Paie)
-		- recrutement
-		- gestion du temps
-		- gestion des frais de déplacement
-		- calcul de paie
-	- Planification et gestion du personnel : 
-		- organisation et planification
-		- gestion de la formation
-		- gestion des évènements
-	- HRIS (Human Resources Information System) : 
-		- Self service des employés
-	- Gestion de la prestation de service et des intérimaires?
-	
+       - Gestion du personnel :
+               - avantages sociaux
+               - gestion de la remuneration (Paie)
+               - recrutement
+               - gestion du temps
+               - gestion des frais de deplacement
+               - calcul de paie
+       - Planification et gestion du personnel :
+               - organisation et planification
+               - gestion de la formation
+               - gestion des evenements
+       - HRIS (Human Resources Information System) :
+               - Self service des employes
+       - Gestion de la prestation de service et des interimaires?
+
 - Logistique :
-	- Gestion des articles (stock)
-	- Management de la qualité
-	- Maintenance (GMAO)
-	- Controlling Logistic (Forecast??)
-	- Management de projet
-	- fonction centrale : 
-		- Système de gestion de documents (GED)
-	- Gestion de configuration matérielle
-	
+       - Gestion des articles (caractéristiques, référencement, tarifs)
+       - Management de la qualite
+       - Maintenance (GMAO)
+       - Controlling Logistic (Forecast??)
+       - Management de projet
+       - fonction centrale :
+               - Systeme de gestion de documents (GED)
+       - Gestion de configuration materielle
+
 - Gestion de la production:
-	- GPAO
-	- devis
-	- planification
-	- ordres de fabrication 
-	- nomenclatures
-		
+       - GPAO
+       - devis
+       - planification
+       - ordres de fabrication
+       - nomenclatures
+
 - Administration des ventes
-	- Tarification
-	- Facturation :
-		- édition
-		- relance
-		- facturation libre vs commande
-	- Gestion Relation Client (CRM)
-		- gestion des clients (coordonnées, etc.)
-		- gestion des prospects
-	- portail de vente (gestion des catalogues, gestion des tarifs et suivi des commandes) (Compiere)
-	- Interface commerciale :
-      	- (cf Oratio) Elaboration de devis en ligne directement chez le client
-      	- gestion des propositions commerciales + taux des succès (Le Facturier)
-	- Suivi de Commande :
-		- identification de la source (propal commercial ou autre)
-		- historique
-	- SAV
-    - Marketing 
- 
-		
+       - Tarification
+       - Facturation (édition, relance, facturation libre vs commande ...)
+       - Gestion Relation Client (CRM)(historique, relation, evenements...)
+       - gestion des prospects et rapport
+       - portail de vente (gestion des catalogues, gestion des tarifs et suivi des commandes) (Compiere)
+       - Suivi/gestion de Commande (SAV?)
+       - Interface commerciale :
+     (cf Oratio) Elaboration de devis en ligne directement chez le client
+       - Marketing
+       - e-commerce (magasin en ligne...)
+       - distribution
+
 - Gestion Relation fournisseurs (SRM)
-	- Chaînes fournisseur (Supply Chain)
-	
-	
-2- Catégories transverse:
-	- Qualité
-	- Workflow / Groupware ?
-	- décisionnel
-	- knowledge management
-	- e-business ?
-	
-3- Caractéristiques techniques
-	- module d'administration:
-		- gestion des profils d'utilisateurs
-	- type d'architecture : client/serveur, Web, autre
-	- langage de programmation (java, Perl, php, etc.)
-	- architecture serveur : HTTP, n-tiers, appli, prrrrrrtt!
-	- base de données : MySQL, Oracle, PostgreSQL, etc.
-	- Mulitlangue
-	- licence
+       - Chaines fournisseur (Supply Chain)=> Dans gestion de production?
+       - inventaire
+       - gestion et suivi des expeditions et reception
+       - gestion de stock fournisseur, calcul de réappro et de dispo
+
+
+2- Categories transverse:
+       - Qualite
+       - Workflow / Groupware ?
+       - reporting / decisionnel
+       - knowledge management
+       - e-business ?
+
+3- Caracteristiques techniques
+       - module d'administration (gestion des comptes, des profils, des groupes, etc.)
+       - type d'architecture : client/serveur, Web, autre
+       - base de donnees : MySQL, Oracle, PostgreSQL, etc.
+       - Multilangue
+       - type de licence (GPL, Mozilla, GNU, etc.)
