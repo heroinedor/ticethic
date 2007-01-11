@@ -1,0 +1,65 @@
+Auteur de la fiche 	
+Nom (choix dans la liste) 	
+Nom (préciser si liste incomplète) 	
+Catégorie 	
+Type 	
+Nombre de sites utilisateurs important
+Plus de 10 	
+Version étudiée 	
+Note globale (/20) 	
+Avis global 	
+
+1- Installation
+	
+Installation automatique 	
+Configuration automatique 	
+Navigation claire dans les sources (arborescence) 	
+Compatible PHP5 	
+Version PHP minimum 	
+Version MySQL minimum 	
+Autre BDD (préciser) 	
+
+2- Utilisation
+	
+Prise en main facile
+Moins de une heure 	
+Code source bien structuré 	
+Standards respectés 	
+Internationalisation possible 	
+Interopérable 	
+Skin de l'IHM modifiable 	
+Outils fonctionnel clef en main 	
+API existante 	
+Absence de langage propriétaire 	
+Développement de plugins possible 	
+Fonctionnalités 	
+Support
+	
+3- Documentation 
+	
+Documentation en ligne 	
+Existence d'une documentation en français 	
+Caractéristiques en lignes 	
+Exemples clairs 	
+Communauté d'utilisateurs importante 	
+Communauté d'utilisateurs francophones importante 	
+Communauté de développeurs importante 	
+Communauté de développeurs francophones importante 	
+Version(s) de démo en ligne 	
+FAQ 	
+Bonne réactivité sur le forum 	
+Bonne qualité des réponses sur le forum 	
+Activité sur un wiki 	
+Qualité du contenu du wiki 	
+
+4- Exploitation
+	
+Bonne montée en charge 	
+Utilisation correcte des ressources serveur 	
+Exécution plutôt rapide 	
+Scripts compilés (moteur de template) 	
+Facilité de mise en production 	
+Evolution
+	
+Fréquence de mise à jour 	
+Saisie de la fiche terminée 	
