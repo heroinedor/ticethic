@@ -4,10 +4,10 @@
       <authors>
     </authors>
       <dates>
-         <creation></creation>
+         <creation>11/01/2007</creation>
          <validation></validation>
       </dates>
-      <language>en</language>
+      <language>fr</language>
       <appname></appname>
       <release></release>
       <licenseid></licenseid>
@@ -16,8 +16,81 @@
       <desc></desc>
       <demourl></demourl>
       <qsosformat>1.6</qsosformat>
-      <qsosappfamily></qsosappfamily>
-      <qsosspecificformat></qsosspecificformat>
+      <qsosappfamily>ERP</qsosappfamily>
+      <qsosspecificformat>0.1</qsosspecificformat>
    </header>
    <include section="generic"></include>
+   <section name="categoriesfonctionnelles" title="Catégories fonctionnelles">
+      <desc>Fonctionnalités métier couvertes par le logiciel</desc>
+      <element name="finances" title="Finances">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="ressourceshumaines" title="Ressources Humaines">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="logistique" title="Logistique">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="gestiondelaproduction" title="Gestion de la production">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="administrationdesventes" title="Administration des ventes">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="gestionrelationfournisseurs" title="Gestion Relation fournisseurs">
+         <desc></desc>
+         <comment></comment>
+      </element>
+   </section>
+   <section name="categoriestransverses" title="Catégories transverses">
+      <desc>Fonctionnalités transverses couvertes par le logiciel</desc>
+      <element name="qualite" title="Qualite">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="travailcollaboratif" title="Travail collaboratif">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="decisionnel" title="Décisionnel">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="gestiondesconnaissances" title="Gestion des Connaissances">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="e-commerce" title="E-commerce">
+         <desc></desc>
+         <comment></comment>
+      </element>
+   </section>
+   <section name="caracteristiquestechniques" title="Caractéristiques techniques">
+      <desc></desc>
+      <element name="administration" title="Administration">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="architecture" title="Architecture">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="stockagedesdonnees" title="Stockage des données">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="internationalisation" title="Internationalisation">
+         <desc></desc>
+         <comment></comment>
+      </element>
+      <element name="licence" title="Licence">
+         <desc></desc>
+         <comment></comment>
+      </element>
+   </section>
 </document>
