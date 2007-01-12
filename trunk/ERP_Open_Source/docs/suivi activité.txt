@@ -6,6 +6,8 @@ Rapport d'activité:
 - 03/01/07 : rajout fct le facturier/Oratio : 2* 2h00		=> 4h00
 - 08/01/07 : gdr : rajout fct le tiny/Value : ??h			=>
 - 09/01/07 : edo : fusion fichier gdr + maj vivier : 3h00	=> 3h00
+- 10/01/07 : edo/coopalibre : présentation qsos : 2h30		=> 2h30
+- 11/01/07 : edo : ajout catégories tech + draft qtpl: 2h00	=> 2h00
 
 Séance du 17/1/2007:
 - affiner le template : 
@@ -13,3 +15,9 @@ Séance du 17/1/2007:
 	- ajouter les catégories techniques (administration, installation, communauté, ergonomie, etc.)
 	- trouver des scores
 - mettre le draft sous forme de fiche template
+
+Séance du 31/01/07:
+	- réunion de travail avec J.Sutour : partie fonctionnelle de la grille (compta, facturation, etc.)
+
+Séance du 07/02/07:
+	- réunion coopalibre
