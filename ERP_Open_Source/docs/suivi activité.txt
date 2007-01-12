@@ -13,6 +13,7 @@ Séance du 17/1/2007:
 - affiner le template : 
 	- revoir les catégories fonctionnelles
 	- ajouter les catégories techniques (administration, installation, communauté, ergonomie, etc.)
+	- relire et s'inspirer de la doc qsos pour trouver les bons critères (notamment $7.3)
 	- trouver des scores
 - mettre le draft sous forme de fiche template
 
