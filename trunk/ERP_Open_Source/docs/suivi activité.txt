@@ -8,6 +8,7 @@ Rapport d'activité:
 - 09/01/07 : edo : fusion fichier gdr + maj vivier : 3h00	=> 3h00
 - 10/01/07 : edo/coopalibre : présentation qsos : 2h30		=> 2h30
 - 11/01/07 : edo : ajout catégories tech + draft qtpl: 2h00	=> 2h00
+- 29/01/07 : edo : section générique : 1h00					=> 1h00
 
 Séance du 17/1/2007:
 - affiner le template : 
