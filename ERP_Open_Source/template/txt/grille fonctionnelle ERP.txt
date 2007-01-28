@@ -1,3 +1,19 @@
+0- Section générique:
+
+la recopier depuis le fichier qsos.pdf (7.3.2)
+proviendra de <include section="generic"/> ??
+A fusionner avec la partie 3 : caractéristiques techniques
+ - Risque de l'Utilisateur
+   - Pérennité intrinsèque
+   - Solution industrialisée
+   - Intégration
+   - Adaptabilité technique
+   - Stratégie
+ - Risque du Prestataire de services
+   - Maintenabilité du code
+   - Maîtrise du code
+
+
 1- Categories fonctionnelles:
 
 - Finances  (comptabilite generale, analytique et budgetaire ??)
@@ -130,3 +146,4 @@ Scripts compilés (moteur de template)
 	- Evolution :
 		- Fréquence de mise à jour
 		- Ancienneté
+
