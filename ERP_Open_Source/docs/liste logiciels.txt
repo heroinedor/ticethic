@@ -1,0 +1,66 @@
+1- ERP :
+- Propriétaires
+	- SAP
+	- Oracle Corporation avec :
+        	o Peoplesoft Enterprise
+	        o Peoplesoft Enterprise One (anciennement JD Edwards)
+        	o Oracle Application/eBusiness Suite
+	-  Microsoft avec en Europe
+          o Microsoft Dynamics NAV
+          o Microsoft Dynamics AX
+          o Microsoft Dynamics CRM
+	- Agresso : Agresso Business World
+	- Sage Adonix : ADONIX X3
+	- LAWSON INTENTIA: M3 et S3
+	- INEO : Mercator
+	- Orcale avec le logiciel Optime (doté d'outils d'optimisations)
+	- maestro
+	- EURÊKA ERP
+	- GALION AUTOMOTIVE
+	- ITNSA : V9 gestion
+	- proALPHA
+ 	- CEGID : Business Place
+	- SYLOB  PRECIX
+	- ORDIROPE avec
+		o MINOS (ERP pour les fournisseurs de la GMS)
+		o MYKERINOS (ERP dédié aux TPE/PME, fournisseurs de la GMS)
+ 	- GP2 avec GPIC (Progiciel orienté GPAO)
+ 	- ADP GSI : GESTIL
+ 	- AGENA 3000 : GENACOD
+ 	- GENERIX : COLLABORATIVE ENTREPRISE
+	- IFS : IFS APPLICATIONS
+	- QUALIAC : QUALIAC VENTES
+	- MOVEX
+	- INFOLOG : INFOLOG SUITE
+	- OREGRAM : GLOBALGRAM
+	- DIVALTO : DIVALTO
+	- PMISOFT : PACK PMI
+
+- Open source:
+	- Taika 
+	- OFBiz (Neogia Nereide)
+	- Compiere (Jorg Janke)
+	- Adempiere (Fork de Compiere)
+	- Value (Emryn)
+	- ERP5 (Nexedi)
+	- TinyERP
+	- SugarCRM
+	- PGISuite (Taïka)
+	- Aria (Nola)
+	- OpenSI
+	- Oratio (Fork de SQLLedger)
+
+2- Spécialistes:
+	- Comptabilité:
+		- SQLLedger
+		- NoMicMac
+	- Facturation:
+		- Le Facturier
+		- FactOOor
+	
+	- Opencascade
+	- Dolibarr (pour PME/TPE)
+	- Fisterra (Igalia)
+	- Etude (gestion de cabinet d'avocat)
+	- GRC Eole
+	- Cocktail

@@ -1,101 +1,192 @@
 0- Section générique:
 
-la recopier depuis le fichier qsos.pdf (7.3.2)
+(cf. qsos.pdf (7.3.2)
 proviendra de <include section="generic"/> ??
-A fusionner avec la partie 3 : caractéristiques techniques
- - Risque de l'Utilisateur
-   - Pérennité intrinsèque
-   - Solution industrialisée
-   - Intégration
-   - Adaptabilité technique
-   - Stratégie
- - Risque du Prestataire de services
-   - Maintenabilité du code
+A fusionner avec la partie 3 : caractéristiques techniques)
+
+0.A- Risque de l'utilisateur :
+- Pérennité intrinsèque
+	- Maturité      
+		- Âge
+		- Stabilité
+		- Historique, problèmes connus
+		- Probabilité de FORK
+	- Adoption 
+		- Popularité    
+		- Références
+		- Communauté des contributeurs
+		- Publications
+	- Direction des développements
+		- équipe dirigeante
+		- Mode de direction
+	- Activité
+		- Nombre de développeurs, identification, turnover
+		- Activité autour des bugs
+		- Activité autour des fonctionnalités
+		- Activité sur les releases
+	- Indépendance des développements
+-   Solution industrialisée
+	- Services (quel que soit le fournisseur)
+		- Formation
+		- Support
+		- Conseil
+	- Documentation
+	- Méthode qualité
+		- Assurance qualité
+		- Outillage
+	- Packaging 
+		- Source
+		- Debian
+		- FreeBSD
+		- HP-UX
+		- MacOSX
+		- Mandriva
+		- NetBSD
+		- OpenBSD
+		- RedHat/Fedora
+		- Solaris
+		- SuSE
+		- Windows
+- Exploitabilité
+	- Facilité d'utilisation, ergonomie
+	- Administration / Supervision
+
+- Adaptabilité technique
+	- Modularité
+	- Travaux dérivés
+		- Facilité technique de modification du code existant
+		- Facilité d'extension du code
+- Stratégie
+	- Licence
+		- Permissivité
+		- Protection contre des forks commerciaux
+	- Détenteur des droits
+	- Modification du code
+	- Roadmap
+	- Sponsor
+	- Indépendance stratégique
+0.B - Risque du Prestataire de services
+   - Maintenabilité
+   	- Qualité code
+   	- Dispersion technologique
+   	- Complexité intrinsèque
+   	- Documentation technique
    - Maîtrise du code
+   	- Directe
+   	- Indirecte
 
 
-1- Categories fonctionnelles:
+1- Categories fonctionnelles: 
+(à mettre en rapport avec http://www.cyber.uhp-nancy.fr/demos/MAIN-013/ présentation des modèles de gestion employés en gestion de production)
 
-- Finances  (comptabilite generale, analytique et budgetaire ??)
-       - comptabilite (privé et publique)
-               - grand livre (de compte)
-               - fournisseurs (??)
-               - clients (facturation)
-               - immobilisation
-               - consolidation
-               - ledger (??)
-               - plusieurs plans comptable ?
-       - Controle de gestion:
-       - comptabilité analytique
-       - Gestion des investissements
-       - Tresorerie:
-               - flux de tresorerie
-               - budget de tresorerie
-               - alea des risque du management
-               - gestion des transactions monetaires
-               - controle de gestion d'entreprise (??)
-       - Gestion des biens immobiliers
-
-- Ressources Humaines :
-       - Gestion du personnel :
+1.A- Gestion Comptable et financière:
+	- Immobilisation
+		- Gestion des biens immobiliers
+	- Comptabilité (générale, auxiliaire, analytique, budgétaire ?)
+		- grand livre (de compte)
+               	- fournisseurs (??)
+               	- clients (facturation)
+               	- immobilisation
+               	- consolidation
+               	- plans comptables (plusieurs)
+               	- Gestion par période comptable et clôture annuelle (Adempiere)
+               	- comptabilité analytique
+	- Finance
+	       	- Tresorerie:
+               		- flux de tresorerie
+               		- budget de tresorerie
+               		- alea des risque du management
+               		- gestion des transactions monetaires
+               		- controle de gestion d'entreprise (??)
+       ??? sans catégories : 
+       		- Taxes : TVA/TAX/IVA
+		- Gestion financière et contrôle de gestion
+       		- Gestion des investissements
+       
+1.B - Gestion des Ressources Humaines :
+	- Paie
+       		- calcul de paie
+       		- gestion de la remuneration
+	- Gestion du personnel :
                - avantages sociaux
-               - gestion de la remuneration (Paie)
                - recrutement
                - gestion du temps
                - gestion des frais de deplacement
-               - calcul de paie
-       - Planification et gestion du personnel :
+	- Planification et gestion du personnel :
                - organisation et planification
                - gestion de la formation
                - gestion des evenements
-       - HRIS (Human Resources Information System) :
+	- HRIS (Human Resources Information System) :
                - Self service des employes
-       - Gestion de la prestation de service et des interimaires?
+	- Gestion de la prestation de service et des interimaires?
 
-- Logistique :
-       - Gestion des articles (caractéristiques, référencement, tarifs)
-       - Management de la qualite
-       - Maintenance (GMAO)
-       - Controlling Logistic (Forecast??)
-       - Management de projet
-       - fonction centrale :
-               - Systeme de gestion de documents (GED)
-       - Gestion de configuration materielle
+1.C - Achats et logistique:
+	- Processus Achats (Adempiere)
+		- Gestion des demandes d'achat a partir des catalogues fournisseurs
+		- Gestion des commandes d'achats
+		- Gestion des receptions et suivi des services
+		- Gestion des factures d'achat.
 
-- Gestion de la production:
-       - GPAO
-       - devis
-       - planification
-       - ordres de fabrication
-       - nomenclatures
+	- Logistique et Gestion des stocks (Adempiere)
+		- Gestion des inventaires
+		- Gestion des réapprovisionnements
+		- Gestion Multi Entrepôts
+		- Gestion des emplacements
+ 		- Suivi des mouvements de stocks
+		- Gestions des expeditions
+	- Distribution
+	
+	- Gestion Relation fournisseurs (SRM)
+		- Chaines fournisseur (Supply Chain)=> Dans gestion de production?
+		- inventaire
+		- gestion et suivi des expeditions et reception
+		- gestion de stock fournisseur, calcul de réappro et de dispo
+		- Paiements fournisseurs et règlements clients (Adempiere)
 
-- Administration des ventes
-       - Tarification
-       - Facturation (édition, relance, facturation libre vs commande ...)
-       - Gestion Relation Client (CRM)(historique, relation, evenements...)
-       - gestion des prospects et rapport
-       - portail de vente (gestion des catalogues, gestion des tarifs et suivi des commandes) (Compiere)
-       - Suivi/gestion de Commande (SAV?)
-       - Interface commerciale :
-     (cf Oratio) Elaboration de devis en ligne directement chez le client
-       - Marketing
-       - e-commerce (magasin en ligne...)
-       - distribution
+1.D- Gestion Commerciale
+	- Administration des ventes
+		- Gestion des articles (caractéristiques, référencement, tarifs)
+		- Gestion des catalogues
+		- Facturation Client (édition, relance, facturation libre vs commande ...)
+		- Gestion Relation Client (CRM)(historique, relation, evenements...)
+		- gestion des prospects et rapport
+		- Gestion des devis et des propositions commerciales (Adempiere)
+		- portail de vente (gestion des catalogues, gestion des tarifs et suivi des commandes) (Compiere)
+		- Gestion des commandes de vente (Adempiere)
+		- Gestion des expeditions et du suivi des services (Adempiere)(SAV)
+		- Interface commerciale :
+		(cf Oratio) Elaboration de devis en ligne directement chez le client
+	- Marketing
+	- Négoce
+	
+	?? Sans catégorie : e-commerce (magasin en ligne...)
 
-- Gestion Relation fournisseurs (SRM)
-       - Chaines fournisseur (Supply Chain)=> Dans gestion de production?
-       - inventaire
-       - gestion et suivi des expeditions et reception
-       - gestion de stock fournisseur, calcul de réappro et de dispo
-
+1.E - Gestion industrielle
+	- Gestion de la production:
+		- GPAO
+		- devis
+		- planification
+		- ordres de fabrication
+		- nomenclatures
+	- Maintenance
+		- GMAO (en fait recouvre quasiment la même chose quel'ERP)
+	- Qualite
 
 2- Categories transverse:
-       - Qualite
+       
+       - Management de projet
        - Workflow / Groupware ?
-       - reporting / decisionnel
+       - Gestion de documents (GED)
+       - Gestion de configuration materielle
+       - Mesure des performances (Adempiere) (reporting / decisionnel)
+		- Définir un ensemble d'indicateurs
+		- Historiser les performances en fonctions de ces indicateurs
+		- Positionner des objectifs
+		- Suivre la progression en fonction des objectifs 
        - knowledge management
        - e-business ?
        - module d'administration (gestion des comptes, des profils, des groupes, etc.)
+
        
 3- Caracteristiques techniques
        - type d'architecture : client/serveur, Web, autre
@@ -103,8 +194,9 @@ A fusionner avec la partie 3 : caractéristiques techniques
        - Interopérabilité
        - Portabilité
        - Multilangue (1 seule langue / Internationalisation possible, quelques langues dispo / disponible dans de nombreuses langues)
-       - type de licence (GPL, Mozilla, GNU, etc.)
+       - Migration à partir d'autres solutions
        - respect des standards
+       
        - Installation
        		- facilité (Installation automatique 	
 		- Configuration ( longue et fastidieuse / indispensable mais pas trop lourde /automatique, outils fonctionnel clef en main )
@@ -112,12 +204,14 @@ A fusionner avec la partie 3 : caractéristiques techniques
 		- prise en main ( très lentes, plusieurs jours / moyennne quelques heures / rapide (-1 heure)
 		- Ergonomie ( on ne s'y retrouve pas sans mode d'emploi / correct / très intuitif, quasi aucune doc nécessaire)
 		- qualité de l'IHM (pas beau, fouilli/ correct / clair, beau, plusieurs thèmes)
+		
 	- Qualité du code source
 		- Code source bien structuré, lisible
 		- Absence de langage propriétaire
 		- Absence de brique propriétaire (Ex : Compiere uniquement sur Oracle)
 		- Développement de plugins possible
 		- Navigation claire dans les sources (arborescence)
+		
 	- Qualité du support/ de la communauté
 		- Support
 		- taille de la communauté
@@ -143,7 +237,41 @@ A fusionner avec la partie 3 : caractéristiques techniques
 		- Facilité de mise en production
 Scripts compilés (moteur de template) 	
 
-	- Evolution :
-		- Fréquence de mise à jour
-		- Ancienneté
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
