@@ -65,6 +65,7 @@ A fusionner avec la partie 3 : caractéristiques techniques)
 	- Roadmap
 	- Sponsor
 	- Indépendance stratégique
+	
 0.B - Risque du Prestataire de services
    - Maintenabilité
    	- Qualité code
