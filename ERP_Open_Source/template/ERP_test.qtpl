@@ -20,39 +20,15 @@
       <qsosspecificformat>0.1</qsosspecificformat>
    </header>
    <include section="generic"></include>
-   <section name="categoriesfonctionnelles" title="Catégories fonctionnelles">
+   <section name="couverturefonctionnelle" title="Couverture fonctionnelle">
       <desc>Fonctionnalités métier couvertes par le logiciel</desc>
-      <element name="finances" title="Finances">
+      <element name="gestioncomptable" title="Gestion comptable">
          <desc>Comptabilite générale, analytique et budgetaire</desc>
          <comment></comment>
-         <element name="comptabilite" title="Comptabilité">
+         <element name="comptabilitegenerale" title="Comptabilité générale">
             <desc>Comptabilité privée et publique</desc>
             <comment></comment>
-            <element name="grandlivre" title="Grand livre">
-               <desc></desc>
-               <desc0>Non couverte</desc0>
-               <desc1>Partiellement couverte</desc1>
-               <desc2>Totalement couverte</desc2>
-               <score></score>
-               <comment></comment>
-            </element>
-            <element name="fournisseurs" title="Fournisseurs">
-               <desc></desc>
-               <desc0>Non couverte</desc0>
-               <desc1>Partiellement couverte</desc1>
-               <desc2>Totalement couverte</desc2>
-               <score></score>
-               <comment></comment>
-            </element>
-            <element name="clients" title="Clients">
-               <desc></desc>
-               <desc0>Non couverte</desc0>
-               <desc1>Partiellement couverte</desc1>
-               <desc2>Totalement couverte</desc2>
-               <score></score>
-               <comment></comment>
-            </element>
-            <element name="immobilisation" title="Immobilisation">
+            <element name="grandlivre" title="Grand livre de compte">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -73,6 +49,22 @@
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
                <desc2>Totalement couverte</desc2>
+               <score></score>
+               <comment></comment>
+            </element>
+            <element name="clotureannuelle" title="Clotûre annuelle">
+               <desc>période comptable</desc>
+               <desc0></desc0>
+               <desc1></desc1>
+               <desc2></desc2>
+               <score></score>
+               <comment></comment>
+            </element>
+            <element name="taxes" title="Taxes">
+               <desc>TVA, TAX, IVA, etc.</desc>
+               <desc0></desc0>
+               <desc1></desc1>
+               <desc2></desc2>
                <score></score>
                <comment></comment>
             </element>
