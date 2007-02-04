@@ -1,27 +1,20 @@
-Rapport d'activité:
-- 6/12/06 : réunion coopalibre: 3h00 * 2					=> 6h00
-- 15/12/06 : edo tout seul : 1h30							=> 1h30
-- 20/12/06 : rédaction draft template : 2*2h30				=> 5h00
-- 22-23/12/06 : edo tout seul : 3h00						=> 3h00
-- 03/01/07 : rajout fct le facturier/Oratio : 2* 2h00		=> 4h00
-- 08/01/07 : gdr : rajout fct le tiny/Value : 1h00			=> 1h00
-- 09/01/07 : edo : fusion fichier gdr + maj vivier : 3h00	=> 3h00
-- 10/01/07 : edo/coopalibre : présentation qsos : 2h30		=> 2h30
-- 11/01/07 : edo : ajout catégories tech + draft qtpl: 2h00	=> 2h00
-- 29/01/07 : edo : section générique : 1h00					=> 1h00
-- 31/01/07 : edo/coopalibre : couverture fonctionnelle		=> 3h00
-- 03/02/07 : edo : modif suite à réunion coopalibre			=> 1h00
+﻿Rapport d'activité:
+- 06/12/06 : réunion coopalibre: 					3h00 * 2	=> 6h00
+- 15/12/06 : edo tout seul : 						1h30	=> 1h30
+- 20/12/06 : rédaction draft template : 				2h30 * 2	=> 5h00
+- 22-23/12/06 : edo tout seul : 					3h00	=> 3h00
+- 03/01/07 : rajout fct le facturier/Oratio : 			2h00 * 2	=> 4h00
+- 08/01/07 : gdr : rajout fct le tiny/Value : 			1h00	=> 1h00
+- 09/01/07 : edo : fusion fichier gdr + maj vivier : 		3h00	=> 3h00
+- 10/01/07 : edo/coopalibre : présentation qsos : 		2h30	=> 2h30
+- 11/01/07 : edo : ajout catégories tech + draft qtpl: 	2h00	=> 2h00
+- 29/01/07 : edo : section générique : 				1h00	=> 1h00
+- 31/01/07 : edo/coopalibre : couverture fonctionnelle			=> 3h00
+- 03/02/07 : edo : modif suite à réunion coopalibre				=> 1h00
 
-Séance du 17/1/2007:
-- affiner le template : 
-	- revoir les catégories fonctionnelles
-	- ajouter les catégories techniques (administration, installation, communauté, ergonomie, etc.)
-	- relire et s'inspirer de la doc qsos pour trouver les bons critères (notamment $7.3)
-	- trouver des scores
+Pour séance du 07/02/2007:
+- grille fonctionnelle : affiner la couverture fonctionnelle en se basant sur le site d'openbravo qui a l'air très complet
 - mettre le draft sous forme de fiche template
 
-Séance du 31/01/07:
-	- réunion de travail avec J.Sutour : partie fonctionnelle de la grille (compta, facturation, etc.)
-
 Séance du 07/02/07:
-	- réunion coopalibre
+- réunion coopalibre
