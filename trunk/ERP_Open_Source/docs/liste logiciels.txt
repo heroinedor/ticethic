@@ -37,7 +37,6 @@
 	- PMISOFT : PACK PMI
 
 - Open source:
-	- Taika 
 	- OFBiz (Neogia Nereide)
 	- Compiere (Jorg Janke)
 	- Adempiere (Fork de Compiere)
@@ -49,6 +48,7 @@
 	- Aria (Nola)
 	- OpenSI
 	- Oratio (Fork de SQLLedger)
+	- openbravo
 
 2- Spécialistes:
 	- Comptabilité:
@@ -57,7 +57,8 @@
 	- Facturation:
 		- Le Facturier
 		- FactOOor
-	
+		- FacturaLUX
+	- OpenMFG (manufacturing)
 	- Opencascade
 	- Dolibarr (pour PME/TPE)
 	- Fisterra (Igalia)
