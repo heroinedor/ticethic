@@ -180,12 +180,12 @@
 	- Workflow / Groupware ?
 	- Gestion de documents (GED)
 	- knowledge management
-	- module d'administration (gestion des comptes, des profils, des groupes, etc.)
-
        
 3- Caracteristiques techniques
-       - type d'architecture : client/serveur, Web, autre
-       - base de donnees : MySQL, Oracle, PostgreSQL, etc.
+
+	- Administration (gestion des comptes, des profils, des groupes, etc.)
+       - Architecture : client/serveur, Web, autre
+       - Stockage des donnees : MySQL, Oracle, PostgreSQL, etc.
        - Multilangue (1 seule langue / Internationalisation possible, quelques langues dispo / disponible dans de nombreuses langues)
        - Migration à partir d'autres solutions
        
@@ -199,13 +199,13 @@
 		- qualité de l'IHM (pas beau, fouilli/ correct / clair, beau, plusieurs thèmes)
 		
 	- Qualité du code source
-		- Code source bien structuré, lisible
+		X- Code source bien structuré, lisible
 		- Absence de langage ou brique propriétaire (Ex : Compiere uniquement sur Oracle)
 		- Respect des standards
 		- Développement de plugins possible
-		- Navigation claire dans les sources (arborescence)
+		X- Navigation claire dans les sources (arborescence)
 		
-	- Qualité du support/ de la communauté
+	X- Qualité du support/ de la communauté
 		- Support
 		- taille de la communauté
 		- Internationalisme de la communauté
@@ -213,7 +213,7 @@
 		- forum de support (aucun / présent mais peu de participation ou peu de réactivité /Bonne réactivité sur le forum, participation en masse )
 		- wiki de support (aucun / présent mais peu d'article / présent et bien fourni )
 
-	- Documentation 
+	X- Documentation 
 		- disponibilité ( payante / papier uniquement / en ligne gratuit )
 		- multilangue ( 1 seule langue anglais / 1 seule langue français / plusieurs )
 		- tutoriaux ( aucun / quelques uns basiques / nombreux et avancés)
@@ -221,10 +221,12 @@
 		- Version(s) de démo en ligne ( aucune / 1 peu représentative / plusieurs et très parlante)
 		- FAQ (absente / présente mais peu fournie / présente et très complète)
 
-	- Exploitation
+	X- Exploitation
 		- montée en charge ( catastrophique, performances qui s'effondrent / correcte / excellente )
 		- Utilisation des ressources serveur ( mauvaise / correcte / excellente )
 		- temps de réponse ( très lent / correcte / très rapide )
 		- disponibilité
 		- stabilité
 		- Facilité de mise en production
+		
+X = pas retenu dans la grille
