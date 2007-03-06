@@ -12,7 +12,7 @@
 - 31/01/07 : edo/coopalibre : couverture fonctionnelle			=> 3h00
 - 03/02/07 : edo : modif suite à réunion coopalibre				=> 1h00
 - 07/02/07 : edo/coopalibre : apéro TinyERP						=> 2h00
-- 06/03/07 : edo : mailing + modif template
+- 06/03/07 : edo : mailing + modif template						=> 2h00
 
 Pour séance du 14/03/07:
 - grille fonctionnelle : affiner la couverture fonctionnelle en se basant sur le site d'openbravo qui a l'air très complet
