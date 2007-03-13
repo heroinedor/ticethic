@@ -35,6 +35,11 @@
 	- OREGRAM : GLOBALGRAM
 	- DIVALTO : DIVALTO
 	- PMISOFT : PACK PMI
+	- ISI DEVELOPPEMENT [re]Source - Application full web
+    - [CTRL]
+    - E-Charlemagne SA
+          o avec Konosys ERP (Progiciel orienté Système d'information éducation)
+          o avec Konosys Générateur (Système de génération à la demande d'ERP Full Web)
 
 - Open source:
 	- OFBiz (Neogia Nereide)
@@ -49,6 +54,11 @@
 	- OpenSI
 	- Oratio (Fork de SQLLedger)
 	- openbravo
+	- GNU Enterprise
+    - Opentaps
+    - WebERP
+    - Pentaho
+
 
 2- Spécialistes:
 	- Comptabilité:
@@ -65,3 +75,5 @@
 	- Etude (gestion de cabinet d'avocat)
 	- GRC Eole
 	- Cocktail
+	
+(principale source : http://fr.wikipedia.org/wiki/Liste_des_logiciels_ERP)
