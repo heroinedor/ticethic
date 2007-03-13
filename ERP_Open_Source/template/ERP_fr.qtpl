@@ -21,15 +21,15 @@
       <qsosspecificformat>0.1</qsosspecificformat>
    </header>
    <include section="generic"></include>
-   <section name="couverturefonctionnelle" title="Couverture fonctionnelle">
+   <section name="functionalgrid" title="Couverture fonctionnelle">
       <desc>Fonctionnalités métier couvertes par le logiciel</desc>
-      <element name="accounting" title="Gestion comptable">
+      <element name="accountancy" title="Gestion comptable">
          <desc>Comptabilite générale, analytique et budgetaire</desc>
          <comment></comment>
-         <element name="immobilisations" title="Immobilisations">
+         <element name="capitalexpenditure" title="Immobilisations">
             <desc></desc>
             <comment></comment>
-            <element name="gestiondesbiensimmobiliers" title="Gestion des biens immobiliers">
+            <element name="realestatemanagement" title="Gestion des biens immobiliers">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -38,7 +38,7 @@
                <comment></comment>
             </element>
          </element>
-         <element name="comptabilitegenerale" title="Comptabilité générale">
+         <element name="financialaccountancy" title="Comptabilité générale">
             <desc>Comptabilité privée et publique</desc>
             <comment></comment>
             <element name="grandlivre" title="Grand livre de compte">
@@ -57,7 +57,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="plancomptable" title="Plan comptable">
+            <element name="chartofaccounts" title="Plan comptable">
                <desc>Plusieurs plans possibles</desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -85,7 +85,7 @@
          <element name="comptabiliteauxiliaire" title="Comptabilité auxiliaire">
             <desc>Gestion des tiers</desc>
             <comment></comment>
-            <element name="journalclient" title="journal client">
+            <element name="clientbook" title="journal client">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -93,7 +93,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="journalfournisseur" title="journal fournisseur">
+            <element name="supplierbook" title="journal fournisseur">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -101,7 +101,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="autresjournaux" title="autres journaux">
+            <element name="otherbooks" title="autres journaux">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -110,7 +110,7 @@
                <comment></comment>
             </element>
          </element>
-         <element name="comptabiliteanalytique" title="Comptabilité analytique">
+         <element name="managementaccountancy" title="Comptabilité analytique">
             <desc></desc>
             <desc0>Non couverte</desc0>
             <desc1>Partiellement couverte</desc1>
@@ -130,7 +130,7 @@
       <element name="finances" title="Finances">
          <desc></desc>
          <comment></comment>
-         <element name="investissements" title="Investissements">
+         <element name="investments" title="Investissements">
             <desc></desc>
             <comment></comment>
             <element name="choixetcalculs" title="Choix et calculs">
@@ -451,7 +451,7 @@
             </element>
          </element>
       </element>
-      <element name="strategiecommerciale" title="Stratégie Commerciale">
+      <element name="commercialstrategy" title="Stratégie Commerciale">
          <desc></desc>
          <comment></comment>
          <element name="gestioncommerciale" title="Gestion Commerciale">
@@ -599,7 +599,7 @@ CRM</desc>
                <comment></comment>
             </element>
          </element>
-         <element name="maintenance" title="Maintenance">
+         <element name="enterpriseassetmanagement" title="Maintenance">
             <desc></desc>
             <comment></comment>
             <element name="gmao" title="GMAO">
@@ -613,9 +613,9 @@ CRM</desc>
          </element>
       </element>
    </section>
-   <section name="categoriestransverses" title="Catégories transverses">
+   <section name="transversalfeatures" title="Catégories transverses">
       <desc>Fonctionnalités transverses couvertes par le logiciel</desc>
-      <element name="mesuresdesperformances" title="Mesures des performances">
+      <element name="performancemeasurement" title="Mesures des performances">
          <desc>Reporting et décisionnel</desc>
          <comment></comment>
          <element name="indicateurs" title="Indicateurs">
@@ -651,11 +651,11 @@ CRM</desc>
             <comment></comment>
          </element>
       </element>
-      <element name="qualite" title="Qualite">
+      <element name="qualitymanagement" title="Qualite">
          <desc></desc>
          <comment></comment>
       </element>
-      <element name="managementdeprojet" title="Management de projet">
+      <element name="projectmanagement" title="Management de projet">
          <desc></desc>
          <desc0>Non couverte</desc0>
          <desc1>Partiellement couverte</desc1>
@@ -663,11 +663,11 @@ CRM</desc>
          <score></score>
          <comment></comment>
       </element>
-      <element name="travailcollaboratif" title="Travail collaboratif">
+      <element name="collaborativework" title="Travail collaboratif">
          <desc>Workflow / groupware</desc>
          <comment></comment>
       </element>
-      <element name="gestiondocumentation" title="Gestion documentation">
+      <element name="documentmanagement" title="Gestion documentation">
          <desc>Gestion Electronique de la Documentation (GED)</desc>
          <desc0>Non couverte</desc0>
          <desc1>Partiellement couverte</desc1>
@@ -675,12 +675,12 @@ CRM</desc>
          <score></score>
          <comment></comment>
       </element>
-      <element name="gestiondesconnaissances" title="Gestion des Connaissances">
+      <element name="knowledgemanagement" title="Gestion des Connaissances">
          <desc></desc>
          <comment></comment>
       </element>
    </section>
-   <section name="caracteristiquestechniques" title="Caractéristiques techniques">
+   <section name="technicalfeatures" title="Caractéristiques techniques">
       <desc></desc>
       <element name="administration" title="Administration">
          <desc>gestion des comptes, des profils, des groupes, etc.</desc>
@@ -690,7 +690,7 @@ CRM</desc>
          <desc>client/serveur, Web, autre</desc>
          <comment></comment>
       </element>
-      <element name="stockagedesdonnees" title="Stockage des données">
+      <element name="datastorage" title="Stockage des données">
          <desc>MySQL, Oracle, PostgreSQL, XML, etc.</desc>
          <comment></comment>
       </element>
@@ -702,7 +702,7 @@ CRM</desc>
          <score></score>
          <comment></comment>
       </element>
-      <element name="import/export" title="Import/Export">
+      <element name="importexport" title="Import/Export">
          <desc>Possibilité de migration depuis d'autres solutions logicielles</desc>
          <desc0>Non couverte</desc0>
          <desc1>Partiellement couverte</desc1>
@@ -730,7 +730,7 @@ CRM</desc>
             <comment></comment>
          </element>
       </element>
-      <element name="utilisation" title="Utilisation">
+      <element name="use" title="Utilisation">
          <desc></desc>
          <comment></comment>
          <element name="priseenmain" title="Prise en main">
@@ -758,7 +758,7 @@ CRM</desc>
             <comment></comment>
          </element>
       </element>
-      <element name="codesource" title="Code source">
+      <element name="sourcecode" title="Code source">
          <desc></desc>
          <comment></comment>
          <element name="briqueproprietaire" title="Brique propriétaire">
