@@ -78,155 +78,142 @@
 
 1- Couverture fonctionnelle: 
 
-	1.A- Gestion Comptable:
-		- Immobilisation
-			- Gestion des biens immobiliers
-		- Comptabilité générale
-			- grand livre de compte
-			- consolidation
-			- plans comptables
-			- période comptable et clôture annuelle
-			- taxes : TVA, TAX, IVA, etc.
-		- Comptabilité auxiliaire (gestion des tiers)
-			- journal client
-			- journal fournisseur
-			- autres journaux
-		- Comptabilité analytique
-		- Comptabilité budgétaire
+	1.A- Gestion Comptable:						(Accounting)
+		- Immobilisations 						(Capital expenditure)
+			- Gestion des biens immobiliers 	(Real State management)
+		- Comptabilité générale 				(Financial accounting)
+			- grand livre de compte 			(ledger)
+			- consolidation						(consolidation)
+			- plan comptable					(chart of accounts)
+			- période comptable et clôture annuelle *clotureannuelle*
+			- taxes : TVA, TAX, IVA, etc.		(taxes)
+		- Comptabilité auxiliaire 				(auxiliary accounting))
+			- journal client					(client book)
+			- journal fournisseur				(supplier book)
+			- autres journaux					(other books)
+		- Comptabilité analytique				(management accounting)
+		- Comptabilité budgétaire				(budgetary accounting)
 
-	1.B Finances
-		- Investissements
-			- choix et calcul
-			- financement (capitaux propres, emprunts, autofinancement)
-			- gestion des titres
-		- Trésorerie:
-			- flux de trésorerie
-			- budget de trésorerie
-			- gestion des transactions monetaires
-	       - contrôle de gestion
+	1.B Finances								(finances)
+		- Investissements						(investments)
+			- choix et calcul					*choixetcalculs*
+			- financement						(funding)
+			- gestion de portefeuille			*gestiondeportefeuille*
+		- Trésorerie:							(Cash)
+			- flux								(cashflow)
+			- budget							(budget)
+			- transactions						(transactions)
+	       - contrôle de gestion				*controledegestion*
 	       
-	1.C - Gestion des Ressources Humaines :
-		- Paie
-			- calcul de paie
-			- bulletin de salaire
-			- gestion de la remuneration
-			- grilles de salaires
-			- déclarations annuelles
-			- journal de paie
-		- Gestion du personnel :
-		       - avantages sociaux
-		       - recrutement
-		       - gestion du temps d'activité
-		       - gestion des notes de frais
-		- Planification et gestion du personnel :
-		       - organisation et planification
-		       - gestion de la formation
-		       - gestion des evenements (embauche, promotion, mutation, licenciements, etc.)
-		- Gestion des interventions externes:
-			- prestation de service 
-			- interimaires
+	1.C - Gestion des Ressources Humaines :		(human resources management)
+		- Paie									(pay)
+			- calcul de paie					(pay calculation)
+			- feuille de paie					(pay slip)
+			- Rémunération						(Compensation and )
+			- grilles salariales				*grillessalariales*
+			- déclarations annuelles			*declarationsannuelles*
+			- journal de paie					(payroll)
+		- Gestion du personnel :				(staff management)
+			- avantages sociaux					(Benefits)
+			- recrutement						(recruitment)
+			- temps d'activité					(workingtime)
+			- notes de frais					*notesdefrais*
+		- Planification du personnel :			(staff planification)
+			- congés							(timeoff)
+			- formation							(training)
+			- evenements 						(events)
+		       (embauche, promotion, mutation, licenciements, etc.)
+		- Gestion des interventions externes:	(external interventions)
+			- prestation de service 			(services)
+			- interim							(interim)
 
-	1.D - Achats , logistique et distribution : 
-		- Processus Achats
-			- Gestion des demandes d'achat a partir des catalogues fournisseurs
-			- Gestion des commandes d'achats
-			- Gestion des receptions et suivi des services
-			- Gestion des factures d'achat.
-			- Chaines fournisseur (Supply Chain)
-		- Logistique et Gestion des stocks
-			- Gestion des inventaires
-			- Gestion des réapprovisionnements
-			- Gestion Multi Entrepôts
-			- Gestion des emplacements (localisation)
-			- Suivi des mouvements de stocks
-		- Distribution
-			- Gestions des magasins
-			- Gestions des expeditions et des livraisons
+	1.D - Achats , logistique et distribution : (purchase logistic distribution)
+		- Processus Achats						(purchase)
+			- commandes d'achats				(purchase orders)
+			- receptions et suivi des services	(goods receipt)
+			- facturation						(invoicing)
+			- Chaines fournisseur 				(Supply Chains)
+		- Logistique et Gestion des stocks		(warehouse management)
+			- inventaires						(invetories)
+			- réapprovisionnements				(procurement)
+			- Multi Entrepôts					(multi warehouse)
+			- emplacements 						(localisation)
+			- Suivi des mouvements de stocks	(stock movements)
+		- Distribution							(distibution)
+			- magasins							(warehouse)
+			- expeditions 						(dispatching)
+			- livraisons						(shipping)
 
-	1.E- Stratégie Commerciale
-		- Gestion Commerciale
-			- Gestion des catalogues et des articles (caractéristiques, référencement, tarifs)
-			- Gestion des devis et des propositions commerciales (Adempiere)
-			- gestion des prospects
-			- Gestion Relation Client (CRM)(historique, relation, evenements...)
-			- Gestion des commandes de vente
-			- Facturation Client (édition, relance, facturation libre vs commande ...)
-			- portail de vente / e-commerce (magasin en ligne...)
-		- Marketing
-			- Etudes de marchés (gestion des questionnaires)
-			- Campagnes publicitaires
-			- Gestion des promotions
+	1.E- Stratégie Commerciale					(commercial strategy)
+		- Gestion Commerciale					(sales management)
+			- catalogues et des articles 		(catalogues and goods)
+			(caractéristiques, référencement, tarifs)
+			- devis et propositions commerciales (estimates and proposal)
+			- prospects							(prospects)
+			- Gestion Relation Client (CRM)		(customer relationship management)
+			(historique, relation, evenements...)
+			- commandes de vente				(sales orders)
+			- Facturation Client 				(customer invoicing)
+			(édition, relance, facturation libre vs commande ...)
+			- vente en ligne					(online sale)
+		- Marketing								(marketing)
+			- Etudes de marchés 				(marketing research)
+			(gestion des questionnaires)
+			- Campagnes publicitaires			(advertising)
+			- Gestion des promotions			*gestiondespromotions*
 
-	1.F - Gestion industrielle
-		- Gestion de la production:
-			- GPAO
-			- devis
-			- planification
-			- ordres de fabrication
-			- nomenclatures
-			- Gestion de configuration
-		- Maintenance
-			- GMAO (en fait recouvre quasiment la même chose quel'ERP)
+	1.F - Gestion industrielle					(industrial management)
+		- Gestion de la production:				(production management)
+			- GPAO								*gpao*
+			- devis								(estimate)
+			- planification						(scheduling)
+			- ordres de fabrication				(manufacturing orders)
+			- nomenclatures						(nomenclatures)
+			- Gestion de configuration			(configuration management)
+		- Maintenance							(maintenance)
+			- GMAO 								(cmms)
+			(en fait recouvre quasiment la même chose quel'ERP)
 
-2- Categories transverse:
+2- Categories transverse:						(transversal features)
        
-	- gestion de la Qualité
-	- Mesure des performances (reporting / decisionnel)
-		- Définir un ensemble d'indicateurs
-		- Historiser les performances en fonctions de ces indicateurs
-		- Positionner des objectifs
-		- Suivre la progression en fonction des objectifs 
-	- Management de projet
-	- Workflow / Groupware ?
-	- Gestion de documents (GED)
-	- knowledge management
+	- Mesure des performances 					(performance measurement)
+	(reporting / decisionnel)
+		- Indicateurs							(indicators)
+		- Historisation							*historisation*
+		- Objectifs								(objectives)
+		- progression							(progress)
+	- Qualité									(quality management)
+	- Management de projet						(project management)
+	- travail collaboratif						(collaborative work)
+	(Workflow / Groupware ?)
+	- Gestion de documents (GED)				(document management)
+	- Gestion des connaissances					(knowledge management)
        
-3- Caracteristiques techniques
+3- Caracteristiques techniques					(technical features)
 
-	- Administration (gestion des comptes, des profils, des groupes, etc.)
-       - Architecture : client/serveur, Web, autre
-       - Stockage des donnees : MySQL, Oracle, PostgreSQL, etc.
-       - Multilangue (1 seule langue / Internationalisation possible, quelques langues dispo / disponible dans de nombreuses langues)
-       - Migration à partir d'autres solutions
-       
-       - Installation
-       		- Facilité (Installation automatique 	
-		- Configuration ( longue et fastidieuse / indispensable mais pas trop lourde /automatique, outils fonctionnel clef en main )
-		
-	- Utilisation
-		- prise en main ( très lentes, plusieurs jours / moyennne quelques heures / rapide (-1 heure)
-		- Ergonomie ( on ne s'y retrouve pas sans mode d'emploi / correct / très intuitif, quasi aucune doc nécessaire)
-		- qualité de l'IHM (pas beau, fouilli/ correct / clair, beau, plusieurs thèmes)
-		
-	- Qualité du code source
-		X- Code source bien structuré, lisible
-		- Absence de langage ou brique propriétaire (Ex : Compiere uniquement sur Oracle)
-		- Respect des standards
-		- Développement de plugins possible
-		X- Navigation claire dans les sources (arborescence)
-		
-	X- Qualité du support/ de la communauté
-		- Support
-		- taille de la communauté
-		- Internationalisme de la communauté
-		- perenité
-		- forum de support (aucun / présent mais peu de participation ou peu de réactivité /Bonne réactivité sur le forum, participation en masse )
-		- wiki de support (aucun / présent mais peu d'article / présent et bien fourni )
-
-	X- Documentation 
-		- disponibilité ( payante / papier uniquement / en ligne gratuit )
-		- multilangue ( 1 seule langue anglais / 1 seule langue français / plusieurs )
-		- tutoriaux ( aucun / quelques uns basiques / nombreux et avancés)
-		- Caractéristiques en lignes 	
-		- Version(s) de démo en ligne ( aucune / 1 peu représentative / plusieurs et très parlante)
-		- FAQ (absente / présente mais peu fournie / présente et très complète)
-
-	X- Exploitation
-		- montée en charge ( catastrophique, performances qui s'effondrent / correcte / excellente )
-		- Utilisation des ressources serveur ( mauvaise / correcte / excellente )
-		- temps de réponse ( très lent / correcte / très rapide )
-		- disponibilité
-		- stabilité
-		- Facilité de mise en production
-		
-X = pas retenu dans la grille
+	- Administration 							(administration)
+	(gestion des comptes, des profils, des groupes, etc.)
+    - Architecture								(architecture)
+       (client/serveur, Web, autre)
+    - Stockage des donnees 						(data storage)
+       (MySQL, Oracle, PostgreSQL, etc.)
+    - Internationalisation						(internationalisation)
+    (1 seule langue / Internationalisation possible, quelques langues dispo / disponible dans de nombreuses langues)
+    - Import/ecxport							(import export)
+    (Migration à partir d'autres solutions)
+    - Installation								(installation)
+    	- Facilité 								(easiness)
+    	(Installation automatique 	
+		- Configuration 						(configuration)
+		( longue et fastidieuse / indispensable mais pas trop lourde /automatique, outils fonctionnel clef en main )
+	- Utilisation								(use)
+		- prise en main 						(ease of use)
+		( très lentes, plusieurs jours / moyennne quelques heures / rapide (-1 heure)
+		- Ergonomie 							(ergonomics)
+		( on ne s'y retrouve pas sans mode d'emploi / correct / très intuitif, quasi aucune doc nécessaire)
+		- Interface graphique					(user interface)
+		(pas beau, fouilli/ correct / clair, beau, plusieurs thèmes)
+	- Code source								(source code)
+		- Brique propriétaire 					(proprietary)
+		(langage ou brique logicielle utilisée propriétaire)
+		- Respect des standards					(standard)
