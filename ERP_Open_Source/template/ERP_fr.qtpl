@@ -20,7 +20,7 @@
       <qsosappname></qsosappname>
       <qsosspecificformat>0.1</qsosspecificformat>
    </header>
-   <include section="generic"></include>
+   <include section="generic_fr"></include>
    <section name="functionalgrid" title="Couverture fonctionnelle">
       <desc>Fonctionnalités métier couvertes par le logiciel</desc>
       <element name="accounting" title="Gestion comptable">
@@ -41,7 +41,7 @@
          <element name="financialaccounting" title="Comptabilité générale">
             <desc>Comptabilité privée et publique</desc>
             <comment></comment>
-            <element name="grandlivre" title="Grand livre de compte">
+            <element name="ledger" title="Grand livre de compte">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -141,7 +141,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="financements" title="Financements">
+            <element name="funding" title="Financements">
                <desc>capitaux propres, emprunts, autofinancement</desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -149,7 +149,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="gestiondestitres" title="Gestion des titres">
+            <element name="gestiondeportefeuille" title="Gestion de portefeuille">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -197,7 +197,7 @@
          <element name="pay" title="Paie">
             <desc></desc>
             <comment></comment>
-            <element name="calculdepaie1" title="Calcul de paie">
+            <element name="paycalculation" title="Calcul de paie">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -205,7 +205,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="bulletinsdesalaire" title="Bulletins de salaire">
+            <element name="payslip" title="Feuille de paie">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -213,7 +213,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="remuneration" title="Rémunération">
+            <element name="compensation" title="Rémunération">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -237,7 +237,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="journaldepaie" title="Journal de paie">
+            <element name="payroll" title="Journal de paie">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -249,7 +249,7 @@
          <element name="staffmanagement" title="Gestion du personnel">
             <desc></desc>
             <comment></comment>
-            <element name="avantagesociaux" title="Avantage sociaux">
+            <element name="benefits" title="Avantage sociaux">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -257,7 +257,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="gestiondurecrutement" title="Recrutement">
+            <element name="recruitment" title="Recrutement">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -265,7 +265,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="tempsdactivite" title="Temps d'activité">
+            <element name="workingtime" title="Temps d'activité">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -285,7 +285,7 @@
          <element name="staffplanification" title="Planification du personnel">
             <desc></desc>
             <comment></comment>
-            <element name="conges" title="Congés">
+            <element name="timeoff" title="Congés">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -293,7 +293,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="formation" title="Formations">
+            <element name="training" title="Formations">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -301,7 +301,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="evenements" title="Evènements">
+            <element name="events" title="Evènements">
                <desc>embauche, promotion, mutation, licenciements, etc.</desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -313,7 +313,7 @@
          <element name="externalinterventions" title="Interventions externes">
             <desc></desc>
             <comment></comment>
-            <element name="prestationdeservice" title="Prestation de service">
+            <element name="services" title="Prestation de service">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -321,7 +321,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="interimaires" title="Interimaires">
+            <element name="interim" title="Intérim">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -334,19 +334,11 @@
       <element name="purchaselogisticdistribution" title="Achats, logistique et distribution">
          <desc></desc>
          <comment></comment>
-         <element name="achats" title="Achats">
+         <element name="purchase" title="Achats">
             <desc></desc>
             <comment></comment>
-            <element name="purchaseorders" title="Demandes d'achats">
+            <element name="purchaseorders" title="Commandes">
                <desc>A partir de catalogues fournisseur</desc>
-               <desc0>Non couverte</desc0>
-               <desc1>Partiellement couverte</desc1>
-               <desc2>Totalement couverte</desc2>
-               <score></score>
-               <comment></comment>
-            </element>
-            <element name="commandes" title="Commandes">
-               <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
                <desc2>Totalement couverte</desc2>
@@ -518,7 +510,7 @@ CRM</desc>
          <element name="marketing" title="Marketing">
             <desc></desc>
             <comment></comment>
-            <element name="etudesdemarches" title="Etudes de marchés">
+            <element name="marketingresearch" title="Etudes de marchés">
                <desc>gestion des questionnaires</desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -526,7 +518,7 @@ CRM</desc>
                <score></score>
                <comment></comment>
             </element>
-            <element name="campagnespublicitaires" title="Campagnes publicitaires">
+            <element name="advertising" title="Campagnes publicitaires">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -590,7 +582,7 @@ CRM</desc>
                <score></score>
                <comment></comment>
             </element>
-            <element name="configurationmanagement" title="Gestion de configuration" >
+            <element name="configurationmanagement" title="Gestion de configuration">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -642,7 +634,7 @@ CRM</desc>
             <score></score>
             <comment></comment>
          </element>
-         <element name="progression" title="Progression">
+         <element name="progress" title="Progression">
             <desc>Suivi de la progression en fonction des objectifs</desc>
             <desc0>Non couverte</desc0>
             <desc1>Partiellement couverte</desc1>
