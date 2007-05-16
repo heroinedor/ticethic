@@ -213,7 +213,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="compensation" title="Rémunération">
+            <element name="salary" title="Rémunération">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -221,7 +221,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="grillessalariales" title="Grilles salariales">
+            <element name="payscale" title="Grilles salariales">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -229,7 +229,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="declarationsannuelles" title="Déclarations annuelles">
+            <element name="declaration" title="Déclarations annuelles">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -273,7 +273,7 @@
                <score></score>
                <comment></comment>
             </element>
-            <element name="notesdefrais" title="Notes de frais">
+            <element name="expenses" title="Notes de frais">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
@@ -282,10 +282,10 @@
                <comment></comment>
             </element>
          </element>
-         <element name="staffplanification" title="Planification du personnel">
+         <element name="staffscheduling" title="Planification du personnel">
             <desc></desc>
             <comment></comment>
-            <element name="timeoff" title="Congés">
+            <element name="leaves" title="Congés">
                <desc></desc>
                <desc0>Non couverte</desc0>
                <desc1>Partiellement couverte</desc1>
