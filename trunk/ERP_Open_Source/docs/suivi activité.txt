@@ -16,9 +16,12 @@
 - 13/03/07 : edo : modif ERP_fr.qtpl							=> 2h00
 - 09/04/07 : edo : traduction nom éléments en anglais			=> 2h00
 - 17/04/07 : edo : traduction nom éléments en anglais			=> 3h00
+- 19/05/07 : edo : traduction nom éléments en anglais (olivier)	=> 0h30
 
 Pour séance du 18/04/07:
 - grille fonctionnelle : affiner la couverture fonctionnelle en se basant sur le site d'openbravo qui a l'air très complet
 - faire petite fiche pour les logiciels testables à partir de site de démo
 - reprendre les mail de Mr QSOS pour passer le fiche qtpl avec les ref en anglais + éventuelle traduction en anglais
 - lister les noms anglais pour voir avec Thai Phan si la traduction est correcte
+
+- Mettre à jour ERP.qtpl quand la version française sera à jour

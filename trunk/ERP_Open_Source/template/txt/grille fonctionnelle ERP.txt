@@ -109,17 +109,17 @@
 		- Paie									(pay)
 			- calcul de paie					(pay calculation)
 			- feuille de paie					(pay slip)
-			- Rémunération						(Compensation and )
-			- grilles salariales				*grillessalariales*
-			- déclarations annuelles			*declarationsannuelles*
+			- Rémunération						(salary)
+			- grilles salariales				(pay scale)
+			- déclarations annuelles			(declaration)
 			- journal de paie					(payroll)
 		- Gestion du personnel :				(staff management)
 			- avantages sociaux					(Benefits)
 			- recrutement						(recruitment)
 			- temps d'activité					(workingtime)
-			- notes de frais					*notesdefrais*
-		- Planification du personnel :			(staff planification)
-			- congés							(timeoff)
+			- notes de frais					(expenses)
+		- Planification du personnel :			(staff scheduling)
+			- congés							(leaves)
 			- formation							(training)
 			- evenements 						(events)
 		       (embauche, promotion, mutation, licenciements, etc.)
