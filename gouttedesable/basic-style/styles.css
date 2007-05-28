@@ -19,6 +19,20 @@ h1{
 	font-size: 20px;
 	font-weight: bold;
 }
+h2{
+	font-size: 14px;
+	font-weight: bold;
+}
+h3{
+	font-size: 10px;
+	font-weight: bold;
+	display: in-line;
+}
+h4{
+	font-size: 10px;
+	font-weight: bold;
+	display: in-line;
+}
 a, a:link, a:visited{
 	color: black;
 	text-decoration: none;
@@ -46,16 +60,16 @@ a, a:link, a:visited{
 }
 .pageTitle{
 	position: absolute;
-	top: 30px;
+	top: 20px;
 	left: 150px;
-	width: 456px;
-	height: 34px;
+	width: 450px;
+	height: 62px;
 	padding: 0px;
 	margin: 0px;
-	background: url("img/gouttedesable.png") top left no-repeat;
+	background: url("img/gouttedesable.gif") top left no-repeat;
   color: black;
 	border: 0px solid #000000;
-	}
+}
 .pageMenu{
 	position: absolute;
 	top: 133px;
@@ -67,7 +81,7 @@ a, a:link, a:visited{
 	background: url("img/menu.gif") top left no-repeat;
 	color: black;
 	border: 0px solid #000000;
-  }
+}
 .pageContent{
 	position: absolute;
 	top: 110px;
@@ -79,7 +93,7 @@ a, a:link, a:visited{
   color: black;
 	border: 0px solid #000000;
 	text-align: justify;
-	}
+}
 .pageContent ul{
   margin: 0px 0px 0px 10px;
   padding: 0px 0px 0px 10px;
@@ -161,7 +175,11 @@ a.menuContact:hover{
 /***********************************/
 /* Style de la page "Bibliotheque" */
 /***********************************/
-a.livresGuides, a.livresGuides:link, a.livresGuides:visited{
+
+/***************************************/
+/* Menu principal section bibliothèque */
+/***************************************/
+a.livresGuides1, a.livresGuides1:link, a.livresGuides1:visited{
 	position: absolute;
 	top: 80px;
 	left: 100px;
@@ -173,10 +191,10 @@ a.livresGuides, a.livresGuides:link, a.livresGuides:visited{
 	border: 0px solid #000000;
 	text-decoration: none;
 }
-a.livresGuides:hover{
+a.livresGuides1:hover{
 	background: url("img/menuContactOff.png") top left no-repeat;	
 }
-a.livresAlbums{
+a.livresAlbums1, a.livresAlbums1:link, a.livresAlbums1:visited{
 	position: absolute;
 	top: 140px;
 	left: 370px;
@@ -188,10 +206,10 @@ a.livresAlbums{
 	border: 0px solid #000000;
 	text-decoration: none;
 }
-a.livresAlbums:hover{
+a.livresAlbums1:hover{
 	background: url("img/menuContactOff.png") top left no-repeat;	
 }
-a.livresTechniques{
+a.livresTechniques1, a.livresTechniques1:link, a.livresTechniques1:visited{
 	position: absolute;
 	top: 270px;
 	left: 180px;
@@ -203,27 +221,141 @@ a.livresTechniques{
 	border: 0px solid #000000;
 	text-decoration: none;
 }
-a.livresTechniques:hover{
+a.livresTechniques1:hover{
 	background: url("img/menuContactOff.png") top left no-repeat;
 }
 
-.cadreLivresGuides{
+/***************************************************************************/
+/* Menu secondaire section bibliothèque (pages Guides, Albums, Techniques) */
+/***************************************************************************/
+/*
+Bleu : 4898fb 5496e8 215ba4 154682
+Orange : ffa853 ea9541 d08133 b36b25
+Vert : 5ef956 4ade43 39c332 27a621
+Jaune : e2ff5a d0ed4a b9d439 a0ba29
+*/
+
+.selectedMenu1{
 	position: absolute;
-	top: 110px;
-	left: 175px;
-	width: 150px;
-	height: 100px;
+	top: 0px;
+	left: 0px;
+	width: 170px;
+	height: 1px;
 	padding: 0px;
 	margin: 0px;
-	background: url("img/goutte.gif") top left repeat;
+	background: #4898fb;
+	border: 0px solid #000000;
+}
+.selectedMenu2{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	width: 170px;
+	height: 2px;
+	padding: 0px;
+	margin: 0px;
+	background: #5496e8;
+	border: 0px solid #000000;
+}
+.selectedMenu3{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	width: 170px;
+	height: 4px;
+	padding: 0px;
+	margin: 0px;
+	background: #215ba4;
+	border: 0px solid #000000;
+}
+.menuBibliotheque2{
+}
+a.livresGuides2, a.livresGuides2:link, a.livresGuides2:visited{
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	width: 170px;
+	height: 15px;
+	padding: 0px;
+	margin: 0px;
+	background: #154682;
+	border: 0px 1px 0px 0px solid #000000;
+	text-decoration: none;
+	text-align: center;
+	color: #EEEEEE;
+}
+a.livresGuides2:hover{
+	background: #154682;
+	color: #FFFFFF;
+}
+a.livresAlbums2, a.livresAlbums2:link, a.livresAlbums2:visited{
+	position: absolute;
+	top: 10px;
+	left: 170px;
+	width: 170px;
+	height: 15px;
+	padding: 0px;
+	margin: 0px;
+	background: #5496e8;
+	border: 0px 1px 0px 0px solid #000000;
+	text-decoration: none;
+	text-align: center;
+	color: #EEEEEE;
+}
+a.livresAlbums2:hover{
+	background: #154682;
+	color: #FFFFFF;
+}
+a.livresTechniques2, a.livresTechniques2:link, a.livresTechniques2:visited{
+	position: absolute;
+	top: 10px;
+	left: 340px;
+	width: 170px;
+	height: 15px;
+	padding: 0px;
+	margin: 0px;
+	background: #5496e8;
 	border: 0px solid #000000;
 	text-decoration: none;
-/*	display: block; */
-	visibility: hidden;
+	text-align: center;
+	color: #EEEEEE;
+}
+a.livresTechniques2:hover{
+	background: #154682;
+	color: #FFFFFF;
 }
 
+/* Bibliothèque - Section Guides */
+.cadreLivresGuides{
+	position: absolute;
+	top: 26px;
+	left: 0px;
+	width: 510px;
+	height: 350px;
+	padding: 0px;
+	margin: 0px;
+	background: #EEEEEE;/* url("img/goutte.gif") top left repeat;*/
+	border: 0px solid #000000;
+	text-decoration: none;
+	font-size: 10px;
+	line-height: 0px;
+}
+.cadreLivresGuides ul{
+  margin: 0px 0px 0px 10px;
+  padding: 0px 0px 0px 10px;
+}
+.cadreLivresGuides li{
+	list-style-type: disc;
+}
 
-
+a.test{
+	color: black;	
+	visibility: visible;
+}
+a.test:hover{
+	color: black;
+	visibility: hidden;
+}
 /***********************************/
 /* Style de la page "Contact"      */
 /***********************************/
