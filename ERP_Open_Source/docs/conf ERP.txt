@@ -1,0 +1,33 @@
+0- présentation:
+	- ne suis pas expert ERP mais ai travaillé sur SAP.
+	- fais part du résultat de mes investigations dans ce domaine
+
+1- Logiciels libres (Coopalibre)
+
+2- ERP introduction
+	Historique:
+		- issu de la méthode de planification des ressources ...
+		- 
+	rôle/fonction
+		- centralisation de l'information
+		- hétérogénéité du marché : historiquement chaque ERP a été construit autour d'un corps de métier et donc s'adaptera plus ou moins bien en fonction
+		- Ne remplace pas les applications spécialisées critiques ou spécifiques à chaque entreprise
+		
+	avantages et inconvénients (http://www.itfacto.com/iso_album/les_mythes_de_l_erp.pdf)
+		- avantages : 
+			cohérence des données
+			système transactionnel efficace et riche en données
+			modularité : possibilité de n'installer que des modules
+			
+		- inconvénients:
+			manque de souplesse : lorsque les processus de l'entreprise change, l'ERP ne pourra pas toujours suivre.
+			coût (licence, maintenance, formation, etc.)
+			modification en profondeur du système d'information de l'entreprise : c'est l'entreprise qui s'adapte au logiciel et non l'inverse. Le gain se fera donc à la refonte et l'optimisation de ce système et non à la mise en place de l'ERP lui même.
+			captivité par raport à l'éditeur/société assurant la maintenance
+				- > solution : ne pas utiliser l'ERP pour tout faire, et conserver certains domaines pour des solutions remplissant mieux ces fonctions (CRM, SCM, etc.)
+			
+
+3- ERP Open Source
+	- différences par rapport au propriétaire
+	- aperçu des domaines couverts
+	- atouts classiques du libres, plus spécialement ici: ouverture de la technologie, accès au données et aux processus, indépendance vis à vis de l'éditeur et de la société qui maintient le produit, etc.
