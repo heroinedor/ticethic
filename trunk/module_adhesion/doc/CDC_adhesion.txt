@@ -1,0 +1,12 @@
+- export sous excel
+- envoi de 2 mails aux admins quand nouvel adhérent : 
+	- 1 mail à tout le CA  avec le steamID, TAG, pseudo, date
+	- 1 mail à tout le bureau + leader team : toutes les infos adhérent+ montant total déjà payé par la team + éventuellement montant restant à payer
+
+- affichage pour info de la deadline de cotisation
+
+- rajouté la saison de validation au dessus de "validé" dans le bloc cassosiation
+
+- changer les cotisations rentrée après novembre 2005
+
+- faire la modif fissa pour qu'on puisse rentrer les données pour 2006

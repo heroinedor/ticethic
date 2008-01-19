@@ -1,0 +1,46 @@
+###################################################################################
+##
+## Nom:  : servstat
+## Version  : 2.0
+## Date:  mercredi 10 août 2005
+## Auteur: karamazov (heroined@mageos.com ou www.funxp.net)
+##         basé sur SQuery 3.9   -->> http://www.squery.com
+##         version antérieure développée par kaméa (www.kamea.net)
+##
+## Description:
+## Ce module sert à monitorer un ou plusieurs serveurs de jeux à partir
+## d'un site Web de type NPDS
+##
+###################################################################################
+##
+## RELEASE:
+## Version 2.1 :
+## - multilangue (anglais et français)
+## - inclusion de la librairie BF2 corrigée
+## - rajouté un lien de connexion rapide au serveur de jeu
+## - rallongé la taille du champs (HTML et SQL) "adresse" du serveur pour permetter
+##   les longues adresses dns à la place des IP
+## - diverses adaptation pour être validé par http://modules.npds.org
+## - quelques débuggages
+##
+## Version 2.0 :
+## - intégration de la librairie SQuery 3.9
+## - page servstat_detail pour l'affichage des détails du serveur
+## - console d'administration permettant de customizer l'affichage du bloc
+## - stockage des favoris en base de données
+## - gestion multiserveur en 1 seul bloc
+## - prise en charge de plus de 50 jeux
+## - possibilité d'interroger n'importe quel serveur de jeu
+## - ne fait pas le café
+## - fonction top 10 abandonnée
+##
+###################################################################################
+##
+## Nom:  : servstat
+## Version  : 2.0
+## Date:  mardi 2 août 2005
+## Auteur: karamazov (heroined@mageos.com ou www.funxp.net)
+##         basé sur SQuery 3.9   -->> http://www.squery.com
+##         version antérieure développée par kaméa (www.kamea.net)
+##
+###################################################################################
