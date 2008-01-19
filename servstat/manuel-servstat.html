@@ -1,0 +1,140 @@
+<P align=center><STRONG><FONT color=#000080>SERVSTAT 2.0<BR>
+module réalisé par Karamazov<BR>
+<a href="mailto:heroined@mageos.com">heroined@mageos.com</a><br>
+<a href="http://www.funxp.net" target="_blank">http://www.funxp.net</a></FONT></STRONG></P>
+<HR>
+<P align=left>Date de réalisation le 2 août 2005&nbsp;</P>
+
+<STRONG><FONT color=#000080>0 - Préambule</FONT></STRONG>
+<P>Bonjour et merci de prendre la peine de lire ces quelques infos
+pour que vous puissiez au mieux profiter de notre petit module ... :)</P>
+<P>Ce module sert à monitorer un ou plusieurs serveurs de jeux à partir
+d'un site Web de type NPDS</P>
+<P><strong>Fonctionnalités de base du module :</strong></P>
+<ol>
+ <li>Bloc :</li><ul>
+    <li>affichage de la map en cours sur chaque serveur</li>
+    <li>affichage des principales caractéristiques du serveur</li>
+    <li>affichage de la liste de joueurs connectés</li></ul>
+ <li>Page principale :</li><ul>
+    <li>affichage des serveurs favoris (caractéristiques et pages de stats)</li>
+    <li>interrogation de n'importe quel serveur</li>
+	<li>liste des joueurs actuellement en jeu</li></ul>
+</ol>
+
+<P><strong>Fonctionnalités du menu administration :</strong></P>
+<ul>
+ <li>gestion des favoris</li><ul>
+   <li>Ajouter/modifier/supprimer un serveur de la liste des favoris</li>
+   <li>Enregistrer le lien vers la page web de statistique des serveurs</li></ul>
+ <li>Configurer l'affichage du bloc en première page</li>
+</ul>
+<P><strong>Compatibilité avec les jeux suivants assurée par la librairie SQuery 3.9 :</strong></P>
+	America's Army, Battlefield 1942, Battlefield Vietnam, Battlefield 2, Call of Duty, CoD:United Offensive, Chaser,
+	Chrome, CounterStrike, Counterstrike:Source, C&C Renegade, Descent 3, Devastation, Doom 3, Farcry, Global Operations
+	Gore, Halo, Heretic 2, Half-Life (and mods), Half-Life 2, IL-2 Sturmovik, IGI2, Jedi Knight 2/3, Medal of Honor (and mods)
+	MOH: Pacific Assault, MultiTheft Auto, NASCAR SimRacer, NetPanzer, NOLF, NOLF2, Operation Flashpoint, Painkiller
+	Postal 2, Purge jihad, Quake 2, Quake 3, Quakeworld, Rally Masters, Ravenshield, RTCW, RTCTW-ET, Rune, Savage,
+	Serious Sam, Serious Sam 2, SiN, SOF, SOF2, Soldat, Star Trek Elite Force 1/2, Star Wars:Battleground, Tactical Ops,
+	Unreal (and all mods), Vietcong
+<P><STRONG><FONT color=#000080>1 - Installation</FONT></STRONG></P>
+<ol>
+ <li>Dézipper l'archive à la racine du site web</li>
+ <li>Editer le fichier <STRONG>serv_config.php</STRONG> pour rajouter le
+    chemin relatif de servstat par rapport au nom de domaine</li>
+ <li>Exécuter le script <STRONG>servstat.sql</STRONG></li>
+ <li>Créer un bloc via la page d'administration de NPDS:
+	<ul>
+ 		<li>choisir un coté (bloc droit ou bloc gauche)</li>
+		<li>choisir un titre pour le bloc :<br>
+		    &nbsp;Exemple : Servstat 2.0</li>
+		<li>Placer le code suivant dans le contenu du bloc:<br>
+		    &nbsp;<STRONG>include#modules/servstat/servstat.php</STRONG></li>
+    </ul></li>
+ <li>Via le menu d'administration ("Editer les fichiers de configuration"),
+	éditer le fichier NPDS "<STRONG>extend-modules.txt</STRONG>" et lui ajouter
+	les lignes suivantes :<br>
+		    <STRONG>&nbsp;[module]<br>
+		    &nbsp;&nbsp;[nom]Administration Servstat[/nom]<br>
+	   		&nbsp;&nbsp;[ModPath]servstat[/ModPath]<br>
+	   		&nbsp;&nbsp;[ModStart]admin/admin_serv[/ModStart]<br>
+	   		&nbsp;&nbsp;[niveau]radminsuper[/niveau]<br>
+			&nbsp;[/module]<br></STRONG>
+	<br>Puis sauvegarder</li>
+</ol>
+Votre module est maintenant installé, vous pouvez passer à son administration
+
+<P><STRONG><FONT color=#000080>2 - Administration</FONT></STRONG></P>
+<P><font color="red"><STRONG>/!\ ATTENTION: seul un administrateur du site de niveau "super admin"
+	peut configurer le module via la console d'administration /!\</STRONG></font></P>
+
+<ol>
+ <li><STRONG>Nom Affiché:</STRONG><br>
+	C'est le nom qui apparaîtra en première page dans le bloc au dessus de l'image du serveur.
+	Ce nom peut être différent du nom réel du serveur.<br>&nbsp;
+	    Ex: nom réel du serveur : [FR]::Fun.Xp Plan Of Attack =|20|= - wWw.FunXp.net -<br>&nbsp;
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nom affiché : Plan Of Attack =|20|=</li>
+ <li><STRONG>Adresse : Port :</STRONG><br>
+	Entrez ici l'adresse du serveur. Celle ci peut être du type IP ou URL.
+	Le port en revanche est obligatoirement de type numérique<br>&nbsp;
+	    Ex : Adresse : GamersLobby.net<br>&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;port : 20300<br>&nbsp;
+		Ex : Adresse : 213.251.144.36<br>&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;port : 27015</li>
+ <li><STRONG>Jeu :</STRONG><br>
+	Sélectionner le jeu correspondant au serveur</li>
+ <li><STRONG>URL des statistiques :</STRONG><br>
+	Si vous disposez d'un site web où l'on peut consulter les statistiques de jeu
+	de votre serveur, entrez la ici. Cette possibilité intéresse entre autres les
+	joueurs sur Half-Life 1 et 2 et ses mods (Counter-Strike, Day Of Defeat, etc.)</li>
+ <li><STRONG>Etat/Ordre d'affichage :</STRONG><br>
+	Vous pouvez ici configurer l'ordre d'affichage des serveurs dans le bloc servstat
+	Ils s'afficheront dans l'ordre croissant sélectionné.
+	Si vous sélectionnez "caché" pour un serveur, il n'apparaîtra pas dans le bloc.</li>
+ <li><STRONG>Image map :</STRONG><br>
+	Affiche ou cache dans le bloc l'image de la map jouée sur le serveur.
+	/!\Attention/!\ : si vous cachez l'image , vous n'aurez plus accès à la petite
+	fenêtre s'affichant par dessus et qui contient les infos principales du serveur</li>
+ <li><STRONG>Nom map :</STRONG><br>
+	Affiche ou cache la ligne indiquant le nom de la map en cours sur le serveur
+	ainsi que le nombre de joueurs actuellement présents.</li>
+ <li><STRONG>Liste joueurs :</STRONG><br>
+	Affiche ou cache la liste déroulante contenant le nom de tous les joueurs
+	actuellement connectés au serveur. S'il n'y a aucun joueur connecté,
+	cette liste n'apparaîtra pas</li>
+ <li><STRONG>Commentaire :</STRONG><br>
+	Vous pouvez ici rentrer un commentaire au sujet de votre serveur.
+	Ce commentaire ne sera disponible que pour l'administrateur.</li>
+</ol>
+
+<P><STRONG><FONT color=#000080>3 - Accès au module</FONT></STRONG></P>
+<p>Ici rien n'est à configurer. Les données suivantes sont à titre indicatif:</p>
+<ul><li>Accès au module servstat se fait via une url de type :<br>
+  <STRONG>modules.php?ModPath=servstat&ModStart=serv_detail&ip=213.186.50.2&port=27015&game=Counterstrike</STRONG><br>
+  Il peut être pratique d'ajouter au menu principal de NPDS
+  un lien de ce type afin d'accéder directement à la page principale du module</li>
+
+<li>Accès direct à la partie administration se fait via une URL du type :<br>
+  <STRONG>admin.php?op=Extend-Admin-SubModule&ModPath=servstat&ModStart=admin/admin_serv</STRONG><br>
+  Il peut être pratique d'ajouter au menu d'administration de NPDS
+  un lien de ce type afin d'accéder directement à la partie adminstration du module</li>
+</ul>
+
+<P><STRONG><FONT color=#000080>4 - compatibilité et copyright</FONT></STRONG></P>
+Module adapté pour <a href="http://www.npds.org" target="_blank">NPDS</a>:<br>
+<ul>
+	<li>version NPDS compatibles : Sable, Narval (autres non testées)</li>
+	<li>thèmes : XBlue et Permanent-Double-Side-Dynamic (autres non testées)</li>
+</ul>
+<p>Pour les versions antérieures de ce module, contacter Kaméa (
+<a href="mailto:kamea@clan-tontons.com ">kamea@clan-tontons.com</a>) ou depuis son site Web :
+<a href="http://www.kamea.net" target="_blank">http://www.kamea.net</a>
+</p>
+Ce module est sous licence  GNU GPL et peut donc être distribué librement et
+gratuitement à condition de mentionner son auteur.<br>
+La librairie SQuery 3.9 utilisée dans ce module est issue du site
+<a href="http://www.squery.com" target="_blank">http://www.squery.com</a> , propiétaire du copyright
+<hr>
+<p align="center">© 2005 cassosiation (<a href="http://www.funxp.net" target="_blank">http://www.funxp.net</a>)</p>
+
+
