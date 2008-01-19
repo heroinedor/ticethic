@@ -1,0 +1,6 @@
+[module]
+   [nom]Adhésion association[/nom]
+   [ModPath]adhesions[/ModPath]
+   [ModStart]admin/admin_adhesion[/ModStart]
+   [niveau]radminuser[/niveau]
+[/module]
