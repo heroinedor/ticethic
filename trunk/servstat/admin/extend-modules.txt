@@ -1,0 +1,6 @@
+	[module]
+	   [nom]Administration Servstat[/nom]
+	   [ModPath]servstat[/ModPath]
+	   [ModStart]admin/admin_serv[/ModStart]
+	   [niveau]radminsuper[/niveau]
+	[/module]

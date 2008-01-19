@@ -1,0 +1,127 @@
+##################################################################
+##
+## Nom:  : servstat
+## Version  : 2.0
+## Date:  mardi 2 août 2005
+## Auteur: karamazov (heroined@mageos.com ou www.funxp.net)
+##         basé sur SQuery 3.9   -->> http://www.squery.com
+##         version antérieure développée par kaméa (www.kaméa.net)
+##
+## Description:
+## Ce module sert à monitorer un ou plusieurs serveurs de jeux à partir
+## d'un site Web de type NPDS
+##
+## Niveau d'installation: Moyen
+## Temps d'installation: 5 minutes
+## Fichiers a éditer:  2
+## Fichiers inclus dans le package:
+##  /serv_detail.php: page décrivant le détail de chaque serveur
+##  /serv_functions.php: include contenant les fonctions hors SQuery
+##  /servstat.php: page du bloc
+##  /serv_config.php: configuration du module
+##  /servstat.sql: script d'installation de la table SQL
+##  /admin/admin_serv.php: Console d'administration du module
+##  /lib/: contient l'intégralité des fichiers de la libraries SQuery
+##  /images/: images utilisées par le module
+##################################################################
+
+###################################################################
+1- Installation
+###################################################################
+
+a - Dézipper l'archive à la racine du site web
+b - Editer le fichier serv_config.php pour rajouter le
+    chemin relatif de servstat par rapport au nom de domaine
+c - Exécuter le script servstat.sql pour créer la table nécessaire
+    dans votre base de données
+d - Créer un bloc via la page d'administration de NPDS:
+		- choisir un coté (bloc droit ou bloc gauche)
+		- choisir un titre pour le bloc :
+		    Exemple : Servstat 2.0
+		- Placer le code suivant dans le contenu du bloc:
+			include#modules/servstat/servstat.php
+e - Via le menu d'administration ("Editer les fichiers de configuration"
+	ou Gestionnaire de fichier, dans le dossier /admin/),
+	éditer le fichier "extend-modules.txt" et lui ajouter
+	les lignes suivantes :
+	[module]
+	   [nom]Administration Servstat[/nom]
+	   [ModPath]servstat[/ModPath]
+	   [ModStart]admin/admin_serv[/ModStart]
+	   [niveau]radminsuper[/niveau]
+	[/module]
+	Sauvegarder
+
+Votre module est maintenant installé, vous pouvez passer à son administration
+
+###################################################################
+2 - Administration
+###################################################################
+
+/!\ ATTENTION: seul un administrateur du site de niveau "super admin"
+	peut configurer le module via la console d'administration /!\
+
+- Nom Affiché:
+	C'est le nom qui apparaîtra page dans le bloc en première page au dessus de l'image du serveur.
+	Ce nom peut être différent du nom réel du serveur.
+	    Ex: nom réel du serveur : [FR]::Fun.Xp Plan Of Attack =|20|= - wWw.FunXp.net -
+	        nom affiché : Plan Of Attack =|20|=
+- Adresse : Port :
+	Entrez ici l'adresse du serveur. Celle ci peut être du type IP ou URL.
+	Le port en revanche est obligatoirement de type numérique
+	    Ex : Adresse : GamersLobby.net
+			 port : 20300
+		Ex : Adresse : 213.251.144.36
+			 port : 27015
+- Jeu :
+	Sélectionner le jeu correspondant au serveur
+- URL des statistiques :
+	Si vous disposez d'un site web où l'on peut consulter les statistiques de jeu
+	de votre serveur, entrez la ici. Cette possibilité intéresse entre autres les
+	joueurs sur Half-Life 1 et 2 et ses mods (Counter-Strike, Day Of Defeat, etc.)
+- Etat/Ordre d'affichage :
+	Vous pouvez ici configurer l'ordre d'affichage des serveurs dans le bloc servstat
+	Ils s'afficheront dans l'ordre croissant sélectionné.
+	Si vous sélectionnez "caché" pour un serveur, il n'apparaîtra pas dans le bloc.
+- Image map :
+	Affiche ou cache dans le bloc l'image de la map jouée sur le serveur.
+	/!\Attention/!\ : si vous cachez l'image , vous n'aurez plus accès à la petite
+	fenêtre s'affichant par dessus et qui contient les infos principales du serveur
+- Nom map :
+	Affiche ou cache la ligne indiquant le nom de la map en cours sur le serveur
+	ainsi que le nombre de joueurs actuellement présents.
+- Liste joueurs :
+	Affiche ou cache la liste déroulante contenant le nom de tous les joueurs
+	actuellement connectés au serveur. S'il n'y a aucun joueur connecté,
+	cette liste n'apparaîtra pas
+- Commentaire :
+	Vous pouvez ici rentrer un commentaire au sujet de votre serveur.
+	Ce commentaire ne sera disponible que pour l'administrateur.
+
+
+###################################################################
+3 - Accès au module
+###################################################################
+
+Ici rien n'est à configurer. Les données suivantes sont à titre indicatif:
+
+- Accès au module servstat se fait via une url de type :
+  modules.php?ModPath=servstat&ModStart=serv_detail&ip=213.186.50.2&port=27015&game=Counterstrike
+  Il peut être pratique d'ajouter au menu principal de NPDS
+  un lien de ce type afin d'accéder directement à la page principale du module
+
+- Accès direct à la partie administration se fait via une URL du type :
+  admin.php?op=Extend-Admin-SubModule&ModPath=servstat&ModStart=admin/admin_serv
+  Il peut être pratique d'ajouter au menu d'administration de NPDS
+  un lien de ce type afin d'accéder directement à la partie adminstration du module
+
+#######################################################################################
+##
+## Nom:  : servstat
+## Version  : 2.0
+## Date:  mardi 2 août 2005
+## Auteur: karamazov (heroined@mageos.com ou www.funxp.net)
+##         basé sur SQuery 3.9   -->> http://www.squery.com
+##         version antérieure développée par kaméa (www.kaméa.net)
+##
+#######################################################################################
