@@ -1,0 +1,70 @@
+#menu_horizontal li {
+	background: white ;
+	color: #fff ;
+	border: 1px solid #600 ;
+	display:inline;
+	margin-right:10px;
+	margin-bottom: 1px ;
+}
+
+#menu_horizontal li a {
+	padding: 4px 20px ;
+	background: #c00 ;
+	color: #fff ;
+	border: 1px solid #600 ;
+	font: 1em "Trebuchet MS",Arial,sans-serif ;
+	line-height: 1em ;
+	text-align: center ;
+	text-decoration: none ;
+	}
+
+#menu_horizontal a:link, #menu_horizontal a:visited {
+	color:#339999;
+	font-weight:bold;
+	text-decoration:none;
+}
+#menu_horizontal a:hover, #menu_horizontal a:active {
+	xt-decoration:underline overline;
+}
+
+
+	background: #c00;
+	color: #fff;
+	border: 1px solid #600;
+	font: 1em "Trebuchet MS", Arial, sans-serif;
+	line-height: 1em;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	
+		background: #900;
+	text-decoration: underline;
+	
+	#menu_horizontal {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#menu_horizontal li {
+	display: inline;
+	margin-right: 1px;
+	color: #fff;
+	background: #c00;
+}
+
+#menu_horizontal li a {
+	display: block ;
+	background: #c00 url(../images/menu_vert.png) left top no-repeat ;
+	color: #fff ;
+	font: 1em "Trebuchet MS",Arial,sans-serif ;
+	line-height: 1em ;
+	padding: 4px 0 ;
+	text-align: center ;
+}
+
+#menu_horizontal li a:hover,#menu_horizontal li a:focus,#menu_horizontal li a:active
+	{
+	background: #900 url(../images/menu_jaune.png) left top no-repeat ;
+}
