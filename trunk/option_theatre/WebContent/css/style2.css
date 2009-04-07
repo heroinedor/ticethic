@@ -1,0 +1,94 @@
+
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+
+
+#navBar{
+	margin: 0 0 0 0;
+	padding: 0px;
+	background-color: #0151B0;
+	
+}
+
+#content{
+  	float:right;
+	width: 90%;
+	margin: 30px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+/***********************************************/
+/*Component Divs                               */
+/***********************************************/
+
+#siteName{
+	margin: 0px;
+	padding: 0px 0px 10px 10px;
+}
+
+
+/*************** #pageName styles **************/
+
+#pageName{
+	padding: 0px 0px 10px 10px;
+}
+
+
+/************* #globalNav styles **************/
+
+#globalNav{
+color: #0151B0;
+padding: 0px 0px 0px 10px;
+white-space: nowrap;
+}
+/* 'nowrap' prevents links from line-wrapping if there are too many to fit in one line
+   this will force a horizontal scrollbar if there isn't enough room for all links
+   remove rule or change value to 'normal' if you want the links to line-wrap */
+
+#globalNav img{
+ display: block;
+}
+
+#globalNav a {
+	font-size: 90%;
+	padding: 0px 4px 0px 0px; 
+}
+
+
+/************* #breadCrumb styles *************/
+
+#breadCrumb{
+	font-size: 80%;
+	padding: 5px 0px 5px 10px;
+}
+
+
+
+#div{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
