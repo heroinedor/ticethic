@@ -1,4 +1,5 @@
 ﻿Rapport d'activité:
+----------------------ERP Open Source----------------------
 - 06/12/06 : réunion coopalibre: 					3h00 * 2	=> 6h00
 - 15/12/06 : edo tout seul :							1h30	=> 1h30
 - 20/12/06 : rédaction draft template :				2h30 * 2	=> 5h00
@@ -25,3 +26,8 @@ Pour séance du 18/04/07:
 - lister les noms anglais pour voir avec Thai Phan si la traduction est correcte
 
 - Mettre à jour ERP.qtpl quand la version française sera à jour
+
+----------------------site Web Lycée Jean Monet----------------------
+- 03/04/09 : edo : mise en place environnement dev + 1 draft menu		=> 4h00
+- 05/04/09 : edo : menu 2nde version + navigation dans le site			=> 3h00
+- 07/04/09 : edo : configuration SVN + sauvegarde				=> 3h00
