@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+.titre1{
+	text-align : center;
+	color : #0c54c0;
+	font-size: 18 px;
+}
+
+.titre2{
+	text-align : center;
+	color : #0c54c0;
+	font-size: 14 px;
+}
+
+.texteGras{
+	font-weight: bold;
+}
+
+.texteSouligne{
+	text-decoration: underline;
+}
+
+.listFleches{
+	list-style: disc;
+}
+
+.colgauche{
+	float: left;
+	width: 60%;
+	font-size: small;
+}
+
+.legende{
+	font-size: 10px;
+	padding-top: 20px;
+}
+
+.illustration{
+	text-align: center;
+	width : 250px;
+	height : 300px;
+	float: right;
+}
+
+div{
+	/*border: solid 1px red;*/	
+}
