@@ -9,7 +9,7 @@
 .titre2{
 	text-align : center;
 	color : #0c54c0;
-	font-size: 14 px;
+	font-size: 16 px;
 }
 
 .texteGras{
@@ -20,14 +20,30 @@
 	text-decoration: underline;
 }
 
-.listFleches{
+.texteBleu{
+	color : #0c54c0;
+}
+
+.listRondes{
 	list-style: disc;
+}
+
+.listCarres{
+	list-style: square;
 }
 
 .colgauche{
 	float: left;
 	width: 60%;
 	font-size: small;
+}
+.paragraphe_bas_droite{
+	float:left;
+	position: relative;
+	left : 80px;
+	top : 20px;
+	width : 400px;
+	height : 146px;
 }
 
 .legende{
@@ -37,9 +53,16 @@
 
 .illustration{
 	text-align: center;
+}
+.imgtheatre{
 	width : 250px;
 	height : 300px;
 	float: right;
+}
+.imgmasques{
+	width : 252px;
+	height : 146px;
+	float: left;
 }
 
 div{

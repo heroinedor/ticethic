@@ -16,30 +16,34 @@ ul {
 li {
 	display: inline;
 	margin-right: 10px;
-	color: #fff;
+	/*color: #FFF;*/
+	color: #000000;
 }
 
 li a {
-	background: url("../img/menu/menu_haut.gif") no-repeat;
+	/*background: url("../img/menu/menu_haut.gif") no-repeat;*/
 	font: 1em "Trebuchet MS", Arial, sans-serif;
 	line-height: 1em;
 	padding: 8px 0 0 35px;
-	color: #FFF;
+	/*color: #FFF;*/
+	color: #000000;
 	text-align: center;
 	height: 32px;
 	voice-family: "\"}\"";
 	voice-family: inherit;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 li a:link, li a:visited {
-	background: url("../img/menu/menu_haut.gif") no-repeat;
+	/*background: url("../img/menu/menu_haut.gif") no-repeat;*/
 	padding: 8px 0 0 35px;
-	color: #FFF;
+	/*color: #FFF;*/
+	color: #000000;
 }
 
 li a:hover {
-	background: url("../img/menu/menu_haut.gif")  0 -32px  no-repeat;
+	/*background: url("../img/menu/menu_haut.gif")  0 -32px  no-repeat;*/
 	padding: 8px 0 0 35px;
-	color: #FFF;
+	/*color: #FFF;*/
+	color: #000000;
 }
