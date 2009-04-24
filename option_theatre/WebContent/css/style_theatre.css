@@ -1,27 +1,73 @@
 @CHARSET "UTF-8";
 
+body{
+	line-height:20px;
+	font-size: smaller;
+	font-family: Verdana, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#content{
+  	float:right;
+	width: 90%;
+	margin: 30px;
+	padding: 10px;
+	text-align: justify;
+}
+
 .titre1{
 	text-align : center;
 	color : #0c54c0;
-	font-size: 18 px;
+	font-size: 18px;
 }
 
 .titre2{
 	text-align : center;
 	color : #0c54c0;
-	font-size: 16 px;
+	font-size: 18px;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-weight:bold;
 }
 
 .texteGras{
 	font-weight: bold;
+}
+.texteItalique{
+	font-weight:italic;
 }
 
 .texteSouligne{
 	text-decoration: underline;
 }
 
+.texteClignotant{
+	text-decoration : blink;
+}
+.texteBleusimple{
+	color : #0c54c0;
+}
+
+.texteRouge {
+	color : red;
+	font-weight : bold;
+}
+	
 .texteBleu{
 	color : #0c54c0;
+	font-weight : bold;
+}
+
+.texteCesure{ 
+	white-space : normal;
 }
 
 .listRondes{
@@ -32,39 +78,72 @@
 	list-style: square;
 }
 
+.listImage{
+	list-style-image:url(../img/losange.gif);
+}
+
+.coldroite{
+	float: right;
+	width: 60%;
+}
+
 .colgauche{
 	float: left;
 	width: 60%;
-	font-size: small;
 }
 .paragraphe_bas_droite{
 	float:left;
 	position: relative;
-	left : 80px;
+	left : 70px;
+	top : 20px;
+	width : 400px;
+	height : 146px;
+}
+.paragraphe_bas_gauche{
+	float:right;
+	position: relative;
+	left : 70px;
 	top : 20px;
 	width : 400px;
 	height : 146px;
 }
 
 .legende{
-	font-size: 10px;
-	padding-top: 20px;
+	font-size	: 10px;
+	padding-top	: 20px;
+	width		: 100%;
 }
 
 .illustration{
 	text-align: center;
 }
+
+.illustration2{
+	text-align: right;
+}
+
+.illustration3{
+	text-align: justify;
+}
+
 .imgtheatre{
 	width : 250px;
 	height : 300px;
 	float: right;
 }
+
 .imgmasques{
-	width : 252px;
-	height : 146px;
-	float: left;
+	width 	: 252px;
+	height 	: 146px;
+	float	: left;
 }
 
+.imgGodot{
+	width 	: 335px;
+	height 	: 200px;
+	float	: right;
+}
+}
 div{
 	/*border: solid 1px red;*/	
 }

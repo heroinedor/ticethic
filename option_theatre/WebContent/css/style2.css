@@ -37,7 +37,13 @@ a:hover {
 	padding: 10px;
 	text-align: justify;
 }
-
+#content2{
+  	float:right;
+	width: 90%;
+	margin: 10px;
+	padding: 10px;
+	text-align: justify;
+}
 
 /***********************************************/
 /*Component Divs                               */
