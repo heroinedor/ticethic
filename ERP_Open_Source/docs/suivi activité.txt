@@ -1,23 +1,23 @@
 ﻿Rapport d'activité:
 ----------------------ERP Open Source----------------------
-- 06/12/06 : réunion coopalibre: 					3h00 * 2	=> 6h00
-- 15/12/06 : edo tout seul :							1h30	=> 1h30
+- 06/12/06 : réunion coopalibre: 				3h00 * 2	=> 6h00
+- 15/12/06 : edo tout seul :						1h30	=> 1h30
 - 20/12/06 : rédaction draft template :				2h30 * 2	=> 5h00
-- 22/12/06 : edo tout seul :							3h00	=> 3h00
-- 03/01/07 : rajout fct le facturier/Oratio :		2h00 * 2	=> 4h00
-- 08/01/07 : gdr : rajout fct le tiny/Value : 			1h00	=> 1h00
-- 09/01/07 : edo : fusion fichier gdr + maj vivier :	3h00	=> 3h00
-- 10/01/07 : edo/coopalibre : présentation qsos : 		2h30	=> 2h30
-- 11/01/07 : edo : ajout catégories tech + draft qtpl: 	2h00	=> 2h00
+- 22/12/06 : edo tout seul :						3h00	=> 3h00
+- 03/01/07 : rajout fct le facturier/Oratio :			2h00 * 2	=> 4h00
+- 08/01/07 : gdr : rajout fct le tiny/Value : 				1h00	=> 1h00
+- 09/01/07 : edo : fusion fichier gdr + maj vivier :			3h00	=> 3h00
+- 10/01/07 : edo/coopalibre : présentation qsos : 			2h30	=> 2h30
+- 11/01/07 : edo : ajout catégories tech + draft qtpl: 			2h00	=> 2h00
 - 29/01/07 : edo : section générique :					1h00	=> 1h00
-- 31/01/07 : edo/coopalibre : couverture fonctionnelle			=> 3h00
+- 31/01/07 : edo/coopalibre : couverture fonctionnelle				=> 3h00
 - 03/02/07 : edo : modif suite à réunion coopalibre				=> 1h00
-- 07/02/07 : edo/coopalibre : apéro TinyERP						=> 2h00
-- 06/03/07 : edo : mailing + modif template						=> 2h00
-- 13/03/07 : edo : modif ERP_fr.qtpl							=> 2h00
-- 09/04/07 : edo : traduction nom éléments en anglais			=> 2h00
-- 17/04/07 : edo : traduction nom éléments en anglais			=> 3h00
-- 19/05/07 : edo : traduction nom éléments en anglais (olivier)	=> 0h30
+- 07/02/07 : edo/coopalibre : apéro TinyERP					=> 2h00
+- 06/03/07 : edo : mailing + modif template					=> 2h00
+- 13/03/07 : edo : modif ERP_fr.qtpl						=> 2h00
+- 09/04/07 : edo : traduction nom éléments en anglais				=> 2h00
+- 17/04/07 : edo : traduction nom éléments en anglais				=> 3h00
+- 19/05/07 : edo : traduction nom éléments en anglais (olivier)			=> 0h30
 
 Pour séance du 18/04/07:
 - grille fonctionnelle : affiner la couverture fonctionnelle en se basant sur le site d'openbravo qui a l'air très complet
@@ -28,6 +28,10 @@ Pour séance du 18/04/07:
 - Mettre à jour ERP.qtpl quand la version française sera à jour
 
 ----------------------site Web Lycée Jean Monet----------------------
-- 03/04/09 : edo : mise en place environnement dev + 1 draft menu		=> 4h00
-- 05/04/09 : edo : menu 2nde version + navigation dans le site			=> 3h00
-- 07/04/09 : edo : configuration SVN + sauvegarde				=> 3h00
+- 03/04/09 : edo : mise en place environnement dev + 1 draft menu			=> 4h00
+- 05/04/09 : edo : menu 2nde version + navigation dans le site + 1 page acte 1	=> 3h00
+- 07/04/09 : edo : configuration SVN + sauvegarde							=> 3h00
+- 10/04/09 : edo : 2 pages de l'acte 1									=> 2h30
+- 12/04/09 : edo : formation Anabelle HTML + CSS, 2 pages + modif diverses		=> 3h00
+- 16/04/09 : Anabelle : 2 pages + modif diverses							=> 5h00
+- 24/04/09 : edo : reprise et corrections des travaux d'Anabelle				=> 4h00
