@@ -13,10 +13,10 @@ body{
 }
 
 #menu_horizontal {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
+	margin			: 0;
+	padding-top		: 10px;
+	list-style-type	: none;
+	text-align		: center;
 }
 
 ul {
