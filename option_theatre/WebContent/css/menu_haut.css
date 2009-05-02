@@ -1,5 +1,17 @@
 @CHARSET "UTF-8";
 
+body{
+	line-height:20px;
+	font-size: small;
+	font-family: Verdana, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+.arrierePlan{
+	margin-left			: 0px;
+	background-image	: url("../img/arriere.jpg");
+}
+
 #menu_horizontal {
 	margin: 0;
 	padding: 0;
@@ -26,7 +38,6 @@ li a {
 	line-height: 1em;
 	padding: 8px 0 0 35px;
 	/*color: #FFF;*/
-	color: #000000;
 	text-align: center;
 	height: 32px;
 	voice-family: "\"}\"";
@@ -38,12 +49,15 @@ li a:link, li a:visited {
 	/*background: url("../img/menu/menu_haut.gif") no-repeat;*/
 	padding: 8px 0 0 35px;
 	/*color: #FFF;*/
-	color: #000000;
+	text-decoration	: none;
+	color			: #0c54c0;
+	font-size		: 18px;
 }
 
 li a:hover {
 	/*background: url("../img/menu/menu_haut.gif")  0 -32px  no-repeat;*/
 	padding: 8px 0 0 35px;
 	/*color: #FFF;*/
-	color: #000000;
+	color			: #000080;
+	text-decoration	: none;
 }
