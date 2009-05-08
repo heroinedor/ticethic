@@ -140,6 +140,11 @@ p{
 	width			: 100%;
 }
 
+.petitLien{
+	font-size		: 10px;
+	font-weight		: italic;
+}
+
 .illustration{
 	text-align		: center;
 }
@@ -175,6 +180,11 @@ p{
 	height 			: 200px;
 	float			: right;
 }
+
+.imggalinstoey{
+	width 			: 300px;
+	height 			: 225px;
+	float			: left;
 }
 div{
 	/*border: solid 1px red;*/	
