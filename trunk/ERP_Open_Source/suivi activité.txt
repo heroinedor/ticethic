@@ -36,3 +36,21 @@ Pour séance du 18/04/07:
 - 16/04/09 : Anabelle : 2 pages + modif diverses							=> 5h00
 - 24/04/09 : edo : reprise et corrections des travaux d'Anabelle				=> 4h00
 - 02/05/09 : edo : 1 page + harmonisation du style							=> 4h00
+
+----------------------Etude portail/GED----------------------
+Consommés / jour								
+
+Jours	09/04/2010	12/04/2010	13/04/2010	14/04/2010	15/04/2010	16/04/2010		Moyenne / individu
+MGU	0,5	0,7	0,3	0,3	0,5	0,5		0,47
+VCO	0	0	0,75	0,75	0	0		0,25
+EDO	0,75	0,75	0,25	0,5	0,75	0,5		0,58
+FME	0,75	1	1	1	0,75	0,5		0,83
+KGA (stagiaire)	0,5	0,5	0,5	0,75	0,75	0,75		0,63
+SDO (stagiaire)	0,5	1	0,5	1	1	1		0,83
+PCA 	0	0,5	0,5	0,25	0,5	0,5		0,38
+YHA (stagiaire)	0	0	0	0,5	0	0		0,08
+ABA (stagiaire)	0,5	1	1	0	0	0		0,42
+VBO (stagiaire)	0,5	1	1	1	1	1		0,92
+
+								
+Moyenne / total	0,40	0,65	0,58	0,61	0,53	0,48		0,54
