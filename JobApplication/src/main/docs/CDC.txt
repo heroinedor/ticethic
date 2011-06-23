@@ -1,0 +1,39 @@
+archi : 
+- des clients (smartphone, PC, linux, mac, etc.) capables de fonctionner en local (données stockées sous forme de fichiers) ou en mode connecté
+- un site web permettant d'effectuer toutes les fonctions de ANPSedic
+- un web service sécurisé permettant à l'utilisateur du client de stocker ses données et de les reconsulter en mode web.
+- possibilité d'envoi d'une candidature dans un format standard utilisable par les principaux logiciels de gestion de recrutement
+
+couches : 
+- stockage des données : soit fichiers, soit BDD
+- lib métier de manipulation des candidatures, des contacts, etc.
+- couche graphique propre à chaque client
+
+Fonctionnalités : 
+- annuaire avec : 
+	- fiche entreprise : 
+		- raison sociale
+		- différentes agences
+		- adresse
+		- site web
+		- mail
+	- fiche contact : 
+		- nom/prénom
+		- fonction
+		- tél (travail, portable, perso)
+		- mail (travail, perso)
+		- fax
+		- id messagerie
+	- évènement? (speed recruiting)
+		- lieux 
+		- date
+		- notes
+	contact X <=> 1 entreprise
+	évènement X <=> 1 entreprise
+	évènement 1 <=> X contact
+
+- calendrier :  permettant de lister les évènements et les RV
+	- pluggable avec gmail, yahoo, etc.
+- candidature : 
+	
+
