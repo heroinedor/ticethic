@@ -1,0 +1,8 @@
+idée :
+site web avec partage des annonces trouvées
+Ex : j'ai une liste des différents sites web de société proposant des jobs sur la région.
+Je poste une annonce pour chaque site en spécifiant le domaine, les dates limites de candidature, etc.
+chacun peut ainsi apporter les annonces qu'il a trouvé et ainsi en récupérer d'autres qui lui conviennent peut-être mieux  
+=> cible : marché caché des annonces job.
+
+à coupler avec la possibilité de gérer ses propres réponses aux annonces comme dans anpsedic.
